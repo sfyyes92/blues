@@ -64,11 +64,12 @@ def extract_encryption_script(scripts):
 def brute_force_password(encrypted_data):
     """Attempts to brute-force the password to decrypt the data."""
     logging.info("start brute_force_password")
-    for pwd in range(0001, 10000):
+    for pwd in range(0, 10000):
         try:
-            decoded_data = decrypt(encrypted_data, str(pwd))
+            password = f"{pwd:04d}"
+            decoded_data = decrypt(encrypted_data, str(password))
             decrypted_data = urllib.parse.unquote(decoded_data)
-            logging.info(pwd)
+            logging.info(password)
             return decrypted_data
         except ValueError:
             continue
