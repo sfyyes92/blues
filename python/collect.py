@@ -4,6 +4,8 @@ import urllib.parse
 import sys
 import logging
 import re
+import time
+import random
 
 import requests
 from Crypto.Cipher import AES
@@ -20,6 +22,17 @@ YUDOU_HOME = "http://blues2022.blogspot.com/"
 # YUDOU_HOME = "https://www.yudou66.cc/"
 OUTPUT_DIR = "../output/"
 
+# 配置延迟参数
+REQUEST_DELAY = 10  # 基础延迟秒数
+RANDOM_DELAY_RANGE = 3  # 随机延迟范围
+MAX_RETRIES = 3  # 最大重试次数
+RETRY_DELAY = 30  # 重试延迟秒数
+
+def add_delay():
+    """添加随机延迟以避免频率限制"""
+    delay = REQUEST_DELAY + random.uniform(0, RANDOM_DELAY_RANGE)
+    logging.info(f"等待 {delay:.2f} 秒以避免频率限制...")
+    time.sleep(delay)
 
 def decrypt(ciphertext, password):
     """Decrypts the given ciphertext using the provided password."""
@@ -42,13 +55,33 @@ def decrypt(ciphertext, password):
     except Exception as e:
         raise ValueError(f"Decryption failed: {e}")
 
-
 def fetch_html(url):
     """Fetches and parses HTML content from the given URL."""
-    response = requests.get(url, verify=False)
-    response.raise_for_status()
-    return etree.HTML(response.text)
-
+    for attempt in range(MAX_RETRIES):
+        try:
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+            }
+            response = requests.get(url, headers=headers, verify=False, timeout=30)
+            response.raise_for_status()
+            return etree.HTML(response.text)
+        except requests.exceptions.HTTPError as e:
+            if e.response.status_code == 429:  # Too Many Requests
+                wait_time = RETRY_DELAY * (2 ** attempt)  # 指数退避
+                logging.warning(f"HTTP 429 错误，等待 {wait_time} 秒后重试 (尝试 {attempt + 1}/{MAX_RETRIES})")
+                time.sleep(wait_time)
+                continue
+            else:
+                raise
+        except requests.exceptions.RequestException as e:
+            if attempt < MAX_RETRIES - 1:
+                wait_time = RETRY_DELAY * (2 ** attempt)
+                logging.warning(f"请求失败: {e}, 等待 {wait_time} 秒后重试")
+                time.sleep(wait_time)
+                continue
+            else:
+                raise
+    raise Exception(f"在 {MAX_RETRIES} 次尝试后仍无法获取 {url}")
 
 def extract_encryption_script(scripts):
     """Extracts the encryption data from the provided script elements."""
@@ -59,7 +92,6 @@ def extract_encryption_script(scripts):
                 if "encryption" in line:
                     return lines[i + 1].split('"')[1]
     return ""
-
 
 def brute_force_password(encrypted_data):
     """Attempts to brute-force the password to decrypt the data."""
@@ -75,37 +107,64 @@ def brute_force_password(encrypted_data):
             continue
     raise ValueError("Failed to brute-force the encryption password.")
 
-
 def parse_urls(decrypted_data):
     """Parses URLs from the decrypted data."""
-    # matches = re.finditer(r"http.*\.(yaml|txt)", decrypted_data)
     matches = re.finditer(r"https?://[^\s()<>]+(?:\([^\s()<>]+\)|[^.,;:\s<>\[\]()])+\.(?:txt|yaml)", decrypted_data)
     urls = [match.group(0) for match in matches]
     if not urls:
         raise ValueError("No URLs found in the decrypted data.")
     return urls
 
-
 def download_files(urls):
     """Downloads files from the given URLs and saves them locally."""
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    for url in urls:
+    for i, url in enumerate(urls):
         logging.info(f"Downloading from {url}")
-        response = requests.get(url, verify=False)
-        response.raise_for_status()
+        
+        # 在每个下载请求前添加延迟（除了第一个）
+        if i > 0:
+            add_delay()
+            
+        for attempt in range(MAX_RETRIES):
+            try:
+                headers = {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+                }
+                response = requests.get(url, headers=headers, verify=False, timeout=30)
+                response.raise_for_status()
 
-        # Determine output file name
-        file_name = (
-            "v2ray.txt"
-            if url.endswith("txt")
-            else "clash.yaml" if url.endswith("yaml") else None
-        )
-        if file_name:
-            output_path = os.path.join(OUTPUT_DIR, file_name)
-            logging.info(f"Saving to {output_path}")
-            with open(output_path, "w", encoding="utf-8") as file:
-                file.write(response.text)
-
+                # Determine output file name
+                file_name = (
+                    "v2ray.txt"
+                    if url.endswith("txt")
+                    else "clash.yaml" if url.endswith("yaml") else None
+                )
+                if file_name:
+                    output_path = os.path.join(OUTPUT_DIR, file_name)
+                    logging.info(f"Saving to {output_path}")
+                    with open(output_path, "w", encoding="utf-8") as file:
+                        file.write(response.text)
+                break  # 成功则跳出重试循环
+                
+            except requests.exceptions.HTTPError as e:
+                if e.response.status_code == 429:  # Too Many Requests
+                    wait_time = RETRY_DELAY * (2 ** attempt)
+                    logging.warning(f"下载时遇到 HTTP 429 错误，等待 {wait_time} 秒后重试 (尝试 {attempt + 1}/{MAX_RETRIES})")
+                    time.sleep(wait_time)
+                    if attempt == MAX_RETRIES - 1:
+                        logging.error(f"无法下载 {url}，跳过此文件")
+                        break
+                else:
+                    logging.error(f"下载 {url} 失败: {e}")
+                    break
+            except requests.exceptions.RequestException as e:
+                if attempt < MAX_RETRIES - 1:
+                    wait_time = RETRY_DELAY * (2 ** attempt)
+                    logging.warning(f"下载失败: {e}, 等待 {wait_time} 秒后重试")
+                    time.sleep(wait_time)
+                else:
+                    logging.error(f"无法下载 {url}，跳过此文件")
+                    break
 
 def main():
     try:
@@ -117,6 +176,9 @@ def main():
 
         today_url = hrefs[0]
         logging.info(f"Reading URL: {today_url}")
+
+        # 在两次主要请求之间添加延迟
+        add_delay()
 
         # Fetch today's page and extract encryption script
         today_etree = fetch_html(today_url)
@@ -138,6 +200,9 @@ def main():
         for url in urls:
             logging.info(url)
 
+        # 在开始下载前添加延迟
+        add_delay()
+
         # Download files from the parsed URLs
         download_files(urls)
         logging.info("All files downloaded successfully.")
@@ -145,7 +210,6 @@ def main():
     except Exception as e:
         logging.error(f"Error: {e}")
         sys.exit(1)
-
 
 if __name__ == "__main__":
     main()
