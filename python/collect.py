@@ -204,7 +204,10 @@ def main():
         # 在开始下载前添加延迟
         add_delay()
         '''
-        urls = ["https://ylks.tt2000.sbs/2025/d7/b8/c.yaml"]
+        urls = [
+            "https://ylks.tt2000.sbs/2025/d7/b8/c.yaml",
+            "https://ylks.tt2000.sbs/2025/d7/b8/v.txt"
+        ]
         
         # Download files from the parsed URLs
         download_files(urls)
