@@ -168,7 +168,7 @@ def download_files(urls):
 
 def main():
     try:
-        '''
+        
         # Fetch homepage and extract today's URL
         home_etree = fetch_html(YUDOU_HOME)
         hrefs = home_etree.xpath('//*[@id="main"]//a/@href')
@@ -208,7 +208,7 @@ def main():
             "https://ylks.tt2000.sbs/2025/d7/b8/c.yaml",
             "https://ylks.tt2000.sbs/2025/d7/b8/v.txt"
         ]
-        
+        '''
         # Download files from the parsed URLs
         download_files(urls)
         logging.info("All files downloaded successfully.")
