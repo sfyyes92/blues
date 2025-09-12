@@ -5,865 +5,2669 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vless","name":"法國_1","server":"jio.sandeshsahu.tech","port":8880,"uuid":"deda077b-f934-42a3-ac2e-c2419a403c76","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cf.vless.sandesh.fr","ws-opts":{"path":"freecodes蘇小檸","headers":{"host":"cf.vless.sandesh.fr"}}}
-  - {"type":"vless","name":"美國_1","server":"jio.sandeshsahu.tech","port":8880,"uuid":"ce293c33-5bdd-4633-9b26-9ef9f3cb052f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cf.vless.sandesh.fr","ws-opts":{"path":"由零开始","headers":{"host":"cf.vless.sandesh.fr"}}}
-  - {"type":"vless","name":"美國_2","server":"jio.sandeshsahu.tech","port":8880,"uuid":"54c5b559-ac58-4d4e-915a-18a88023bba8","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cf.vless.sandesh.fr","ws-opts":{"path":"由零开始","headers":{"host":"cf.vless.sandesh.fr"}}}
-  - {"type":"vless","name":"美國_3","server":"jio.sandeshsahu.tech","port":8880,"uuid":"8ae118c2-fae4-4c24-83c1-f1ba14201417","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cf.vless.sandesh.fr","ws-opts":{"path":"由零开始","headers":{"host":"cf.vless.sandesh.fr"}}}
-  - {"type":"vless","name":"法國_2","server":"jio.sandeshsahu.tech","port":8880,"uuid":"e367a1f7-39c8-4b0f-a219-f0aee2050af6","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cf.vless.sandesh.fr","ws-opts":{"path":"freecodes蘇小檸","headers":{"host":"cf.vless.sandesh.fr"}}}
-  - {"type":"vless","name":"美國_4","server":"jio.sandeshsahu.tech","port":8880,"uuid":"be6bd26e-a83c-4326-8d83-d1ac5fbd0fd4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cf.vless.sandesh.fr","ws-opts":{"path":"由零开始","headers":{"host":"cf.vless.sandesh.fr"}}}
-  - {"type":"vless","name":"美國_5","server":"jio.sandeshsahu.tech","port":8880,"uuid":"0505cc82-4349-4533-bfcb-1bfaafe7755a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cf.vless.sandesh.fr","ws-opts":{"path":"由零开始","headers":{"host":"cf.vless.sandesh.fr"}}}
-  - {"type":"vless","name":"美國_6","server":"jio.sandeshsahu.tech","port":8880,"uuid":"db0a2f0a-1155-4565-8f93-9086b8c37f9b","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cf.vless.sandesh.fr","ws-opts":{"path":"由零开始","headers":{"host":"cf.vless.sandesh.fr"}}}
-  - {"type":"vless","name":"法國_3","server":"jio.sandeshsahu.tech","port":8880,"uuid":"d187555b-1a1c-49a9-95e5-ee52f8756ab7","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cf.vless.sandesh.fr","ws-opts":{"path":"freecodes蘇小檸","headers":{"host":"cf.vless.sandesh.fr"}}}
-  - {"type":"trojan","name":"美國_7","server":"199.34.229.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"vless","name":"美國_8","server":"jio.sandeshsahu.tech","port":8880,"uuid":"59efbdc8-88c0-42ea-a6e2-e7d78f4ab0ca","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cf.vless.sandesh.fr","ws-opts":{"path":"由零开始","headers":{"host":"cf.vless.sandesh.fr"}}}
-  - {"type":"vless","name":"美國_9","server":"jio.sandeshsahu.tech","port":8880,"uuid":"e3138aeb-8afd-42a5-8fae-0e77ba5d0ac0","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cf.vless.sandesh.fr","ws-opts":{"path":"由零开始","headers":{"host":"cf.vless.sandesh.fr"}}}
-  - {"type":"vless","name":"美國_10","server":"104.18.33.171","port":8880,"uuid":"957408bd-75e4-496e-80b3-b87d760e454a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cf.vless.sandesh.fr","ws-opts":{"path":"Twitter🇨🇳+@HongKong2+/?ed=2560","headers":{"host":"cf.vless.sandesh.fr"}}}
-  - {"type":"vless","name":"美國_11","server":"104.18.33.50","port":8880,"uuid":"957408bd-75e4-496e-80b3-b87d760e454a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cf.vless.sandesh.fr","ws-opts":{"path":"Twitter🇨🇳+@HongKong2+/?ed=2560","headers":{"host":"cf.vless.sandesh.fr"}}}
-  - {"type":"trojan","name":"荷蘭_1","server":"185.148.107.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"荷蘭_2","server":"188.42.145.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"vless","name":"法國_4","server":"jio.sandeshsahu.tech","port":8880,"uuid":"54c5b559-ac58-4d4e-915a-18a88023bba8","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cf.vless.sandesh.fr","ws-opts":{"path":"freecodes蘇小檸","headers":{"host":"cf.vless.sandesh.fr"}}}
-  - {"type":"vless","name":"美國_12","server":"104.18.33.146","port":8880,"uuid":"957408bd-75e4-496e-80b3-b87d760e454a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cf.vless.sandesh.fr","ws-opts":{"path":"Twitter🇨🇳+@HongKong2+/?ed=2560","headers":{"host":"cf.vless.sandesh.fr"}}}
-  - {"type":"vless","name":"美國_13","server":"jio.sandeshsahu.tech","port":8880,"uuid":"51dfad08-0434-4609-95e8-32a82b335cec","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cf.vless.sandesh.fr","ws-opts":{"path":"由零开始","headers":{"host":"cf.vless.sandesh.fr"}}}
-  - {"type":"vless","name":"美國_14","server":"jio.sandeshsahu.tech","port":8880,"uuid":"81abe919-b6d5-46a3-8a78-d59f149e55b4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cf.vless.sandesh.fr","ws-opts":{"path":"由零开始","headers":{"host":"cf.vless.sandesh.fr"}}}
-  - {"type":"vless","name":"美國_15","server":"jio.sandeshsahu.tech","port":8880,"uuid":"5abcbadb-f346-4d53-a381-abbb5eedfa36","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cf.vless.sandesh.fr","ws-opts":{"path":"由零开始","headers":{"host":"cf.vless.sandesh.fr"}}}
-  - {"type":"vless","name":"美國_16","server":"jio.sandeshsahu.tech","port":8880,"uuid":"560bbaa3-63e3-41c4-a4e9-0973ed660b94","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cf.vless.sandesh.fr","ws-opts":{"path":"由零开始","headers":{"host":"cf.vless.sandesh.fr"}}}
-  - {"type":"trojan","name":"美國_17","server":"209.94.90.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"vless","name":"美國_18","server":"104.18.33.51","port":8880,"uuid":"957408bd-75e4-496e-80b3-b87d760e454a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cf.vless.sandesh.fr","ws-opts":{"path":"Twitter🇨🇳+@HongKong2+/?ed=2560","headers":{"host":"cf.vless.sandesh.fr"}}}
-  - {"type":"trojan","name":"荷蘭_3","server":"185.148.105.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"vless","name":"美國_19","server":"104.18.33.174","port":8880,"uuid":"957408bd-75e4-496e-80b3-b87d760e454a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cf.vless.sandesh.fr","ws-opts":{"path":"Twitter🇨🇳+@HongKong2+/?ed=2560","headers":{"host":"cf.vless.sandesh.fr"}}}
-  - {"type":"trojan","name":"俄羅斯_1","server":"195.13.44.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"美國_20","server":"199.34.230.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"美國_21","server":"192.200.160.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"美國_22","server":"192.0.63.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"荷蘭_4","server":"185.16.110.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"vless","name":"美國_23","server":"104.18.33.255","port":8880,"uuid":"957408bd-75e4-496e-80b3-b87d760e454a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cf.vless.sandesh.fr","ws-opts":{"path":"Twitter🇨🇳+@HongKong2+/?ed=2560","headers":{"host":"cf.vless.sandesh.fr"}}}
-  - {"type":"trojan","name":"荷蘭_5","server":"185.251.82.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"荷蘭_6","server":"185.7.240.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"荷蘭_7","server":"185.148.107.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/TelegramU0001F1E8U0001F1F3","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"羅馬尼亞_1","server":"185.156.19.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"荷蘭_8","server":"185.251.80.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"奧地利","server":"212.183.88.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"荷蘭_9","server":"185.221.160.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"俄羅斯_2","server":"193.9.49.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"荷蘭_10","server":"185.176.26.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"荷蘭_11","server":"185.18.250.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"荷蘭_12","server":"185.238.228.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"羅馬尼亞_2","server":"185.174.138.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"荷蘭_13","server":"185.148.106.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"俄羅斯_3","server":"195.13.55.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"荷蘭_14","server":"185.251.83.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/TelegramU0001F1E8U0001F1F3","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"俄羅斯_4","server":"193.124.224.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"荷蘭_15","server":"188.42.89.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"荷蘭_16","server":"185.176.24.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"荷蘭_17","server":"185.251.81.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"荷蘭_18","server":"188.164.248.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"美國_24","server":"192.0.54.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"荷蘭_19","server":"188.42.88.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"荷蘭_20","server":"185.251.83.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"俄羅斯_5","server":"194.76.18.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"俄羅斯_6","server":"195.26.229.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"俄羅斯_7","server":"185.59.218.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"俄羅斯_8","server":"195.13.54.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"trojan","name":"美國_25","server":"199.68.156.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
-  - {"type":"vless","name":"美國_26","server":"108.165.216.167","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh36v4.hiddendom.shop"}
-  - {"type":"vless","name":"美国_1","server":"159.112.235.235","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh36v4.hiddendom.shop"}
-  - {"type":"vless","name":"法國_5","server":"141.11.202.193","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh36v4.hiddendom.shop"}
-  - {"type":"vless","name":"英國_1","server":"77.75.199.71","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh36v4.hiddendom.shop"}
-  - {"type":"vless","name":"俄羅斯_9","server":"94.247.142.103","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh23v5.hiddendom.shop"}
-  - {"type":"vless","name":"俄羅斯_10","server":"176.124.223.161","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh36v4.hiddendom.shop"}
-  - {"type":"vless","name":"印度","server":"14.102.228.18","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh36v4.hiddendom.shop"}
-  - {"type":"vless","name":"美國_27","server":"104.129.167.253","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh36v4.hiddendom.shop"}
-  - {"type":"vless","name":"立陶宛","server":"86.38.214.158","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh36v4.hiddendom.shop"}
-  - {"type":"vless","name":"法國_6","server":"45.80.110.128","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh36v4.hiddendom.shop"}
-  - {"type":"vless","name":"烏克蘭_1","server":"31.43.179.43","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh36v4.hiddendom.shop"}
-  - {"type":"vless","name":"法國_7","server":"45.80.111.32","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh36v4.hiddendom.shop"}
-  - {"type":"vless","name":"美国_2","server":"104.129.166.207","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh36v4.hiddendom.shop"}
-  - {"type":"vless","name":"荷蘭_21","server":"45.153.7.133","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh36v4.hiddendom.shop"}
-  - {"type":"vless","name":"美國_28","server":"104.129.165.101","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh36v4.hiddendom.shop"}
-  - {"type":"vless","name":"法國_8","server":"141.11.203.139","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh23v5.hiddendom.shop"}
-  - {"type":"vless","name":"俄羅斯_11","server":"185.59.218.58","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh36v4.hiddendom.shop"}
-  - {"type":"vless","name":"德國","server":"62.72.166.15","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh36v4.hiddendom.shop"}
-  - {"type":"vless","name":"日本","server":"103.116.7.158","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh36v4.hiddendom.shop"}
-  - {"type":"vless","name":"美國_29","server":"66.81.247.18","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh36v4.hiddendom.shop"}
-  - {"type":"vless","name":"斯洛維尼亞_1","server":"92.53.191.80","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh36v4.hiddendom.shop"}
-  - {"type":"vless","name":"法國_9","server":"ov-france3.09vpn.com","port":8443,"uuid":"771080b2-17ba-4cf1-8eea-79df4050d8ba","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/vless/"}}
-  - {"type":"vless","name":"荷蘭_22","server":"45.142.120.139","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh36v4.hiddendom.shop"}
-  - {"type":"vless","name":"芬蘭","server":"65.109.238.79","port":2080,"uuid":"a6a61af5-828f-42af-fc48-a69e386d0f2c","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
-  - {"type":"vless","name":"美国_3","server":"informed-location.seotoolsforyou.co.uk","port":80,"uuid":"5c929ec5-5b1e-447a-950c-354c5d1ba1de","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"美國_30","server":"narrow-passenger.oneeat.co","port":80,"uuid":"5a12794b-2125-46d7-a748-927a989faa04","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"美国_4","server":"grounded-brother.seotoolsforyou.co.uk","port":80,"uuid":"52adc6ba-b1c7-4541-a594-08fc698be640","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"美国_5","server":"obedient-menu.seotoolsforyou.co.uk","port":80,"uuid":"561623c8-4983-44d3-a6ef-92b803a74ee8","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"美国_6","server":"confident-club.seotoolsforyou.co.uk","port":80,"uuid":"9926ee97-4398-48dd-b263-2863c62f5c41","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"美国_7","server":"beloved-failure.seotoolsforyou.co.uk","port":80,"uuid":"3cad733b-3526-476b-adf5-b7cbdd33dc6c","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"美國_31","server":"wild-bird.seotoolsforyou.co.uk","port":80,"uuid":"1d0dfde1-9f18-4557-9af8-4f3124ee5dcd","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"美國_32","server":"handsome-device.oneeat.co","port":80,"uuid":"2ad87f95-7a0b-4018-8497-5ecaac2f0ddf","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"美國_33","server":"198.62.62.2","port":443,"uuid":"598b4251-fd03-48fe-b12d-630ac3adf2e5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"smn2.gerlemondns.info","ws-opts":{"path":"/hjgfdws","headers":{"host":"smn2.gerlemondns.info"}}}
-  - {"type":"vless","name":"美國_34","server":"famous-danger.oneeat.co","port":80,"uuid":"ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"美國_35","server":"154.90.55.174","port":443,"uuid":"f47b5d3c-4051-476d-8280-89b1125b4467","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"aws.amazon.com","tls":false,"udp":true}
-  - {"type":"vless","name":"美国_8","server":"elegant-corporation.seotoolsforyou.co.uk","port":80,"uuid":"d03d8815-a06f-408f-a62f-6c84869b96a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"ss","name":"美国_9","server":"hackney-latest-strike.freesocks.work","port":443,"cipher":"chacha20-ietf-poly1305","password":"XUMTygEM1jVYIvysXKqA5T"}
-  - {"type":"vless","name":"美國_36","server":"speedtest.org","port":443,"uuid":"cd2e9541-3fce-4d95-9bec-919d884f911e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"xwhlk.matthew-azyadrafte.info","ws-opts":{"path":"/tiger","headers":{"host":"xwhlk.matthew-azyadrafte.info"}}}
-  - {"type":"vless","name":"俄羅斯_12","server":"94.247.142.103","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh23v4.hiddendom.shop"}
-  - {"type":"vless","name":"澳大利亞","server":"103.133.1.227","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh24v3.hiddendom.shop"}
-  - {"type":"vless","name":"荷蘭_23","server":"45.159.218.165","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh24v3.hiddendom.shop"}
-  - {"type":"vless","name":"英國_2","server":"45.8.211.71","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh24v3.hiddendom.shop"}
-  - {"type":"ss","name":"美國_37","server":"103.181.165.246","port":12030,"cipher":"aes-128-gcm","password":"01721e43-5389-4f97-b21c-900abb2bda9e"}
-  - {"type":"vless","name":"美國_38","server":"magical-fish.seotoolsforyou.co.uk","port":80,"uuid":"edb4c373-ac92-4430-8f42-94439ca829b9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"美国_10","server":"jealous-competition.seotoolsforyou.co.uk","port":80,"uuid":"7094df26-af60-41c4-afac-857060d1bab0","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"美國_39","server":"147.185.161.234","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh24v3.hiddendom.shop"}
-  - {"type":"vless","name":"美國_40","server":"167.68.42.168","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh24v3.hiddendom.shop"}
-  - {"type":"vless","name":"美國_41","server":"184.174.80.250","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh23v4.hiddendom.shop"}
-  - {"type":"vless","name":"斯洛維尼亞_2","server":"92.53.188.36","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh23v4.hiddendom.shop"}
-  - {"type":"ss","name":"美国_11","server":"switcher-nick-croquet.freesocks.work","port":443,"cipher":"chacha20-ietf-poly1305","password":"9tqhMdIrTkgQ46PvhyAtMH"}
-  - {"type":"vless","name":"美國_42","server":"104.129.167.161","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh23v4.hiddendom.shop"}
-  - {"type":"vless","name":"英國_3","server":"45.8.211.86","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh23v4.hiddendom.shop"}
+  - {"type":"trojan","name":"美國_1","server":"199.68.156.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_2","server":"199.68.156.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/TelegramShadowProxy66","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"vless","name":"美國_3","server":"38.180.22.152","port":33000,"uuid":"944476f2-45d5-4a62-a707-e62df5cebdec","skip-cert-verify":true,"network":"tcp","servername":"yahoo.com","tls":false,"udp":true}
+  - {"type":"trojan","name":"美國_4","server":"199.68.156.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_5","server":"199.68.156.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"西班牙_1","server":"185.251.81.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_1","server":"195.13.44.87","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"英國_1","server":"185.156.19.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/TelegramU0001F1E8U0001F1F3","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_6","server":"209.94.90.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_7","server":"199.68.156.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇮🇷ShadowProxy66","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_8","server":"209.94.90.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_9","server":"199.68.156.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"西班牙_2","server":"185.238.228.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"德國_1","server":"185.16.110.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"奧地利_1","server":"212.183.88.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"德國_2","server":"185.16.110.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_10","server":"209.94.90.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"德國_3","server":"185.16.110.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"荷蘭_1","server":"188.42.145.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"立陶宛_1","server":"185.148.105.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_11","server":"209.94.90.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇮🇷@ShadowProxy66","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"奧地利_2","server":"212.183.88.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"西班牙_3","server":"185.251.81.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_12","server":"209.94.90.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇮🇷@ShadowProxy66","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"荷蘭_2","server":"185.156.19.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"英國_2","server":"193.124.224.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_13","server":"199.34.230.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"英国_1","server":"195.26.229.87","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_2","server":"195.13.44.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"立陶宛_2","server":"185.148.106.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美国_1","server":"198.62.62.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"西班牙_4","server":"185.238.228.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"US_1","server":"185.251.81.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"西班牙_5","server":"185.251.83.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"德國_4","server":"185.16.110.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_3","server":"195.13.44.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"澳大利亞_1","server":"192.65.217.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美国_2","server":"195.13.45.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/鐢遍浂寮€濮","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_14","server":"199.68.156.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_15","server":"209.94.90.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇮🇷ShadowProxy66","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_4","server":"185.174.138.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_5","server":"195.13.44.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"立陶宛_3","server":"185.176.24.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_16","server":"192.0.54.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_6","server":"188.42.88.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳"}}
+  - {"type":"trojan","name":"立陶宛_4","server":"185.148.107.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始U0001F1E8U0001F1F3","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_17","server":"185.148.105.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_18","server":"192.0.54.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"加拿大_1","server":"205.233.181.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_7","server":"195.13.45.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_8","server":"185.59.218.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"西班牙_6","server":"185.251.82.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"奧地利_3","server":"212.183.88.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"德國_5","server":"185.16.110.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"立陶宛_5","server":"185.176.24.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_9","server":"195.13.44.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_19","server":"198.62.62.87","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_20","server":"192.0.54.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"立陶宛_6","server":"185.176.24.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/TelegramU0001F1E8U0001F1F3","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_21","server":"192.200.160.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_10","server":"185.176.26.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄罗斯_1","server":"185.174.138.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_11","server":"185.221.160.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_12","server":"185.59.218.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_22","server":"192.0.54.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美国_3","server":"198.62.62.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"荷蘭_3","server":"188.42.145.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"英國_3","server":"188.244.122.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"英国_2","server":"185.156.19.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美国_4","server":"185.148.104.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_23","server":"209.94.90.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美国_5","server":"188.42.88.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"荷兰_1","server":"185.148.105.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"//由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"法國_1","server":"185.7.240.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_24","server":"209.94.90.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram@ShadowProxy66","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"立陶宛_7","server":"185.148.106.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄罗斯_2","server":"185.221.160.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_25","server":"185.148.104.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"盧森堡_1","server":"188.42.89.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美国_6","server":"185.148.107.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram@ShadowProxy66","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄罗斯_3","server":"185.176.24.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_13","server":"185.59.218.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_26","server":"192.200.160.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"奧地利_4","server":"212.183.88.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_27","server":"192.200.160.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"西班牙_7","server":"185.251.83.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_28","server":"199.181.197.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"西班牙_8","server":"185.251.82.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_29","server":"192.0.63.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"保加利亚","server":"185.176.26.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄罗斯_4","server":"193.9.49.87","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"英国_3","server":"185.156.19.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"保加利亞_1","server":"185.238.228.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"塞浦路斯","server":"185.18.184.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_30","server":"198.62.62.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"荷蘭_4","server":"188.42.145.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"澳大利亞_2","server":"192.65.217.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_14","server":"193.9.49.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"西班牙_9","server":"185.251.82.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"荷兰_2","server":"192.65.217.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"荷兰_3","server":"185.148.107.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"法國_2","server":"185.7.240.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"英國_4","server":"194.36.55.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_31","server":"185.148.107.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"盧森堡_2","server":"188.42.89.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_15","server":"195.13.44.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"摩爾多瓦","server":"188.244.122.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"英國_5","server":"195.26.229.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_32","server":"209.46.30.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_33","server":"199.34.230.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_34","server":"185.251.83.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"荷蘭_5","server":"188.164.248.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"加拿大_2","server":"205.233.181.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_35","server":"199.181.197.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_16","server":"193.9.49.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美国_7","server":"198.62.62.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/鐢遍浂寮€濮","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_36","server":"216.24.57.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_17","server":"185.221.160.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"德國_6","server":"185.16.110.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_37","server":"199.34.230.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_18","server":"185.59.218.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"法國_3","server":"185.7.240.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_38","server":"209.94.90.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始@ShadowProxy66","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"西班牙_10","server":"185.251.83.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始U0001F1E8U0001F1F3","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_39","server":"192.0.63.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_40","server":"192.0.63.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"法國_4","server":"185.7.240.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"加拿大_3","server":"205.233.181.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"荷蘭_6","server":"188.42.145.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"西班牙_11","server":"185.251.80.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_19","server":"193.9.49.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美国_8","server":"185.148.105.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/鐢遍浂寮€濮","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"立陶宛_8","server":"185.148.105.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"//Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"英國_6","server":"194.36.55.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_41","server":"216.24.57.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_42","server":"199.34.230.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"英國_7","server":"195.26.229.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"立陶宛_9","server":"185.148.106.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_20","server":"195.13.45.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"英國_8","server":"195.26.229.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_43","server":"199.34.230.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"西班牙_12","server":"185.251.83.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"立陶宛_10","server":"185.148.105.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"//由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"立陶宛_11","server":"185.148.105.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"//Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_44","server":"192.200.160.87","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_45","server":"199.34.230.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_46","server":"209.46.30.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_21","server":"195.13.45.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"加拿大_4","server":"205.233.181.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"立陶宛_12","server":"185.148.104.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"西班牙_13","server":"185.251.80.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"英國_9","server":"193.124.224.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"西班牙_14","server":"185.251.82.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_47","server":"192.0.63.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_22","server":"193.9.49.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"荷蘭_7","server":"188.164.248.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美国_9","server":"185.148.104.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美国_10","server":"199.181.197.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/鐢遍浂寮€濮","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美国_11","server":"185.148.107.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"奥地利","server":"212.183.88.87","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram🇨🇳"}}
+  - {"type":"trojan","name":"美國_48","server":"216.24.57.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"英国_4","server":"194.36.55.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_49","server":"193.9.49.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_23","server":"185.174.138.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"法國_5","server":"185.7.240.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"荷蘭_8","server":"188.164.248.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_50","server":"199.181.197.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"烏克蘭_1","server":"193.9.49.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_51","server":"209.46.30.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_52","server":"192.200.160.87","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美国_12","server":"185.148.106.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"西班牙_15","server":"185.251.80.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"西班牙_16","server":"185.251.80.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_53","server":"199.34.229.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_24","server":"185.59.218.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_25","server":"195.13.45.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"西班牙_17","server":"185.251.82.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"荷蘭_9","server":"188.164.248.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"英國_10","server":"185.156.19.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_26","server":"195.13.45.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"英國_11","server":"193.124.224.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/TelegramU0001F1E8U0001F1F3","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_54","server":"199.181.197.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_27","server":"195.13.45.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"法國_6","server":"192.65.217.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美国_13","server":"209.46.30.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"西班牙_18","server":"185.251.81.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"英國_12","server":"195.26.229.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"英國_13","server":"188.244.122.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"西班牙_19","server":"185.18.250.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_28","server":"194.76.18.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"西班牙_20","server":"185.18.250.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄罗斯_5","server":"185.176.24.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"保加利亞_2","server":"185.238.228.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_55","server":"199.181.197.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_29","server":"185.176.26.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"西班牙_21","server":"185.251.83.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"西班牙_22","server":"185.251.82.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_56","server":"198.62.62.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram🇨🇳"}}
+  - {"type":"trojan","name":"立陶宛_13","server":"185.148.105.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇮🇷ShadowProxy66","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_57","server":"209.46.30.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"荷蘭_10","server":"188.42.145.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美国_14","server":"199.181.197.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"澳大利亞_3","server":"192.65.217.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_58","server":"188.42.88.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"英國_14","server":"193.124.224.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"荷蘭_11","server":"188.42.145.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"澳大利亞_4","server":"192.65.217.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"立陶宛_14","server":"185.176.24.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"英國_15","server":"188.244.122.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"英國_16","server":"193.124.224.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_59","server":"192.0.54.87","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram🇨🇳"}}
+  - {"type":"trojan","name":"美国_15","server":"198.62.62.87","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"德國_7","server":"194.76.18.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_30","server":"185.59.218.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"立陶宛_15","server":"185.176.24.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_60","server":"199.34.229.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_31","server":"194.76.18.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_61","server":"192.200.160.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"德國_8","server":"185.18.184.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"英國_17","server":"194.36.55.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_62","server":"199.34.229.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"西班牙_23","server":"185.251.80.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"盧森堡_3","server":"188.42.89.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美国_16","server":"216.24.57.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"荷兰_4","server":"194.36.55.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄羅斯_32","server":"194.76.18.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_63","server":"199.34.229.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"西班牙_24","server":"185.251.80.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_64","server":"199.34.229.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"荷蘭_12","server":"188.164.248.87","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"立陶宛_16","server":"185.148.107.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"法國_7","server":"185.7.240.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"西班牙_25","server":"185.251.83.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_65","server":"209.46.30.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram🇨🇳","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美国_17","server":"198.62.62.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"西班牙_26","server":"185.18.250.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"立陶宛_17","server":"188.42.89.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/TelegramU0001F1E8U0001F1F3","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"西班牙_27","server":"185.251.83.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/TelegramU0001F1E8U0001F1F3","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"美國_66","server":"199.34.229.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"俄罗斯_6","server":"185.174.138.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"trojan","name":"立陶宛_18","server":"188.42.89.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"vless","name":"美國_67","server":"38.180.230.78","port":8766,"uuid":"9e43619a-5067-42f3-a82e-bed81703a771","skip-cert-verify":true,"network":"tcp","servername":"yahoo.com","tls":false,"udp":true}
+  - {"type":"vless","name":"法國_8","server":"94.140.0.141","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh23v4.hiddendom.shop"}
+  - {"type":"trojan","name":"美国_18","server":"185.148.105.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/TelegramShadowProxy66","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"vless","name":"英國_18","server":"45.8.211.86","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh23v4.hiddendom.shop"}
+  - {"type":"vless","name":"美國_68","server":"167.68.42.168","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh24v3.hiddendom.shop"}
+  - {"type":"vless","name":"俄羅斯_33","server":"94.247.142.103","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh23v4.hiddendom.shop"}
+  - {"type":"vless","name":"美國_69","server":"156.238.19.95","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh24v3.hiddendom.shop"}
+  - {"type":"vless","name":"美國_70","server":"147.185.161.234","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh24v3.hiddendom.shop"}
+  - {"type":"vless","name":"保加利亞_3","server":"93.152.207.254","port":45884,"uuid":"57a5f6b3-ea58-4d4e-ad9c-a9830f148184","skip-cert-verify":true,"network":"tcp","servername":"yahoo.com","tls":false,"udp":true}
+  - {"type":"vless","name":"美国_19","server":"103.133.1.227","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh24v3.hiddendom.shop"}
+  - {"type":"vless","name":"美國_71","server":"154.83.2.167","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh23v4.hiddendom.shop"}
+  - {"type":"vless","name":"美國_72","server":"184.174.80.250","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh23v4.hiddendom.shop"}
+  - {"type":"ss","name":"美国_20","server":"awes35lesl.blhao0o.dpdns.org","port":12023,"cipher":"aes-128-gcm","password":"01721e43-5389-4f97-b21c-900abb2bda9e"}
+  - {"type":"ss","name":"美国_21","server":"awes35lesl.blhao0o.dpdns.org","port":12026,"cipher":"aes-128-gcm","password":"01721e43-5389-4f97-b21c-900abb2bda9e"}
+  - {"type":"vless","name":"英國_19","server":"45.8.211.71","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh24v3.hiddendom.shop"}
   - {"type":"vless","name":"南非","server":"102.177.189.251","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh23v4.hiddendom.shop"}
-  - {"type":"vless","name":"法國_10","server":"94.140.0.141","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh23v4.hiddendom.shop"}
-  - {"type":"vless","name":"美國_43","server":"154.83.2.167","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh23v4.hiddendom.shop"}
-  - {"type":"vless","name":"俄羅斯_13","server":"185.59.218.168","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh23v4.hiddendom.shop"}
-  - {"type":"vless","name":"拉脫維亞","server":"89.116.180.248","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh23v4.hiddendom.shop"}
+  - {"type":"vless","name":"美國_73","server":"104.129.167.161","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh23v4.hiddendom.shop"}
+  - {"type":"vless","name":"立陶宛_19","server":"89.116.180.248","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh23v4.hiddendom.shop"}
   - {"type":"vless","name":"烏克蘭_2","server":"31.43.179.38","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh23v4.hiddendom.shop"}
+  - {"type":"vless","name":"俄羅斯_34","server":"185.59.218.168","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh23v4.hiddendom.shop"}
+  - {"type":"vless","name":"斯洛文尼亞","server":"92.53.188.36","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh23v4.hiddendom.shop"}
+  - {"type":"ss","name":"美国_22","server":"switcher-nick-croquet.freesocks.work","port":443,"cipher":"chacha20-ietf-poly1305","password":"9tqhMdIrTkgQ46PvhyAtMH"}
+  - {"type":"vless","name":"美国_23","server":"45.159.218.165","port":443,"uuid":"401374e6-df77-41fb-f638-dad8184f175b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh24v3.hiddendom.shop"}
+  - {"type":"vless","name":"美国_24","server":"cloud4.leechirankadeh.cloud","port":2096,"uuid":"08604288-670b-4663-854d-fa47ab3fe068","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
+  - {"type":"vless","name":"俄羅斯_35","server":"82.115.6.101","port":14915,"uuid":"3d11ab83-5a26-4bde-9883-ec490396703f","skip-cert-verify":true,"network":"tcp","servername":"yahoo.com","tls":false,"udp":true}
+  - {"type":"vless","name":"俄羅斯_36","server":"109.248.170.119","port":13447,"uuid":"b573cefb-7bc7-4a42-b407-b8b534e66773","skip-cert-verify":true,"network":"tcp","servername":"yahoo.com","tls":false,"udp":true}
+  - {"type":"vless","name":"美国_25","server":"hopeful-appointment.seotoolsforyou.co.uk","port":80,"uuid":"491e4f76-42f0-43a7-a987-25072a68d5e4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"type":"vless","name":"美国_26","server":"grounded-brother.seotoolsforyou.co.uk","port":80,"uuid":"52adc6ba-b1c7-4541-a594-08fc698be640","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"type":"trojan","name":"美国_27","server":"192.200.160.87","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"Telegram🇨🇳"}}
+  - {"type":"vless","name":"美国_28","server":"sweet-combination.seotoolsforyou.co.uk","port":80,"uuid":"05020a61-3c0c-4ead-b256-7851ff905a75","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"type":"vless","name":"美国_29","server":"bewildered-poem.seotoolsforyou.co.uk","port":80,"uuid":"0f4865d9-9405-4703-a282-46e326e6d9e7","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"type":"vless","name":"美国_30","server":"communal-loss.oneeat.co","port":80,"uuid":"a2af50d9-09c7-4a44-90d0-42da35923e9e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"type":"trojan","name":"美國_74","server":"185.148.107.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/TelegramU0001F1E8U0001F1F3","headers":{"host":"ocost-dy.wmlefl.cc"}}}
+  - {"type":"vless","name":"美国_31","server":"jealous-competition.seotoolsforyou.co.uk","port":80,"uuid":"7094df26-af60-41c4-afac-857060d1bab0","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/?serverrrVPN由零开始---_@vpnserverrr_@vpnserverrr_@vpnserverrr_@vpnserverrr_@vpnserverrr"}}
+  - {"type":"vless","name":"美国_32","server":"89.44.242.222","port":29500,"uuid":"888a20e2-fc3f-4f52-973c-36a6386225b8","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
+  - {"type":"vless","name":"美国_33","server":"s4.cn-db.top","port":80,"uuid":"a225a8ff-1505-4dfd-a3b7-59737bb499ee","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_34","server":"cloudflare.182682.xyz","port":80,"uuid":"2ad33a9c-ee61-4df4-96e1-1bf0987d082e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_35","server":"informed-location.seotoolsforyou.co.uk","port":80,"uuid":"5c929ec5-5b1e-447a-950c-354c5d1ba1de","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"type":"vless","name":"美国_36","server":"s4.cn-db.top","port":80,"uuid":"0772da20-ea49-446d-816d-e42237c54848","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_37","server":"cloudflare.182682.xyz","port":80,"uuid":"0a6936a5-12cb-4038-86bb-562894b7816f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram@freecodes/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_38","server":"cloudflare.182682.xyz","port":80,"uuid":"3766bbe4-16a2-4987-8833-2dcb20731a5f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_39","server":"s4.cn-db.top","port":80,"uuid":"72520d9d-695c-457e-b055-f65dc36e0e25","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_40","server":"cloudflare.182682.xyz","port":80,"uuid":"20c21ebd-05ed-4f44-bc4d-8831ac518b7a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_41","server":"cloudflare.182682.xyz","port":80,"uuid":"f0d0c1f0-bd67-4c9d-9827-757dc0043fab","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_42","server":"s4.cn-db.top","port":80,"uuid":"4657a214-f331-4b98-bbe1-e813ab777a58","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_43","server":"89.44.242.222","port":46822,"uuid":"44aded6c-a012-452b-8e13-04d5f15a659f","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
+  - {"type":"vless","name":"美国_44","server":"cloudflare.182682.xyz","port":80,"uuid":"781c352c-5b01-4920-9a0e-2a25732f694c","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_45","server":"cloudflare.182682.xyz","port":80,"uuid":"f1062c0c-7a36-4250-af5b-b8b47c8a40ca","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_46","server":"cloudflare.182682.xyz","port":80,"uuid":"acf0cb41-ac1a-448f-98cf-0b58a9f92b05","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram@freecodes/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_47","server":"cloudflare.182682.xyz","port":80,"uuid":"7c06892a-d102-47cc-846d-e1d445dc9d2c","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_48","server":"jealous-competition.seotoolsforyou.co.uk","port":80,"uuid":"7094df26-af60-41c4-afac-857060d1bab0","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"type":"vless","name":"美国_49","server":"s4.cn-db.top","port":80,"uuid":"cb3ec36e-a0c2-4798-a340-9cb7eaee739a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_50","server":"cloudflare.182682.xyz","port":80,"uuid":"67b05dba-e32b-424a-b5a8-61a2f4097a14","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_51","server":"s4.cn-db.top","port":80,"uuid":"f1062c0c-7a36-4250-af5b-b8b47c8a40ca","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_52","server":"s4.cn-db.top","port":80,"uuid":"a4f5540d-fa8b-45ce-8e3c-ab0e23631d94","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"premium.jts-wf4.site","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"premium.jts-wf4.site"}}}
+  - {"type":"vless","name":"美国_53","server":"cloudflare.182682.xyz","port":80,"uuid":"a4798d14-063c-4b01-9b70-5b5793335b87","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram@freecodes/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_54","server":"cloudflare.182682.xyz","port":80,"uuid":"15510a34-7cec-411a-9256-279241522f81","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_55","server":"cloudflare.182682.xyz","port":80,"uuid":"0772da20-ea49-446d-816d-e42237c54848","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"US_2","server":"cloudflare.182682.xyz","port":80,"uuid":"9c0caffc-04c5-413e-98e8-666052b19da8","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳
+    @WangCai2 /?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_56","server":"cloudflare.182682.xyz","port":80,"uuid":"15510a34-7cec-411a-9256-279241522f81","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram@freecodes/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_57","server":"s4.cn-db.top","port":80,"uuid":"7c326126-7e75-457d-a8cd-8120da01eb25","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_58","server":"cloudflare.182682.xyz","port":80,"uuid":"77ece81f-a99a-4bd9-be0f-3c562c4dab8d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram@freecodes/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_59","server":"cloudflare.182682.xyz","port":80,"uuid":"a225a8ff-1505-4dfd-a3b7-59737bb499ee","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram@freecodes/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_60","server":"cloudflare.182682.xyz","port":80,"uuid":"cb3ec36e-a0c2-4798-a340-9cb7eaee739a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_61","server":"s4.cn-db.top","port":80,"uuid":"d5436600-7461-43ed-b7fa-4eeb00f7d8d4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_62","server":"cloudflare.182682.xyz","port":80,"uuid":"7c06892a-d102-47cc-846d-e1d445dc9d2c","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram@freecodes/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_63","server":"cloudflare.182682.xyz","port":80,"uuid":"3d4beb9c-d081-40f1-a40f-4a50e1a29a24","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"premium.jts-wf4.site","ws-opts":{"path":"Telegram@freecodes/?ed=2560","headers":{"host":"premium.jts-wf4.site"}}}
+  - {"type":"vless","name":"美国_64","server":"cloudflare.182682.xyz","port":80,"uuid":"89b2eb61-c9c8-4990-9205-7f5eec0501fc","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram@freecodes/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_65","server":"s4.cn-db.top","port":80,"uuid":"7d265652-cacf-4b9a-aee6-f20ba4dbfe04","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_66","server":"cloudflare.182682.xyz","port":80,"uuid":"a4798d14-063c-4b01-9b70-5b5793335b87","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_67","server":"s4.cn-db.top","port":80,"uuid":"20c21ebd-05ed-4f44-bc4d-8831ac518b7a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_68","server":"s4.cn-db.top","port":80,"uuid":"7baac04e-a297-48a0-99e9-2deba9ae64fb","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_69","server":"cloudflare.182682.xyz","port":80,"uuid":"a225a8ff-1505-4dfd-a3b7-59737bb499ee","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_70","server":"cloudflare.182682.xyz","port":80,"uuid":"5e3fa0c3-59c0-4a9f-a9b5-169aad3a7b7b","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"premium.jts-wf4.site","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"premium.jts-wf4.site"}}}
+  - {"type":"vless","name":"美国_71","server":"cloudflare.182682.xyz","port":80,"uuid":"4657a214-f331-4b98-bbe1-e813ab777a58","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_72","server":"s4.cn-db.top","port":80,"uuid":"89b2eb61-c9c8-4990-9205-7f5eec0501fc","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_73","server":"s4.cn-db.top","port":80,"uuid":"a4798d14-063c-4b01-9b70-5b5793335b87","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_74","server":"s4.cn-db.top","port":80,"uuid":"da8aa1d1-5fd7-4085-85c1-3d5cbfdbfc5c","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_75","server":"cloudflare.182682.xyz","port":80,"uuid":"da8aa1d1-5fd7-4085-85c1-3d5cbfdbfc5c","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_76","server":"s4.cn-db.top","port":80,"uuid":"67b05dba-e32b-424a-b5a8-61a2f4097a14","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_77","server":"s4.cn-db.top","port":80,"uuid":"7c06892a-d102-47cc-846d-e1d445dc9d2c","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_78","server":"cloudflare.182682.xyz","port":80,"uuid":"1b604b11-1dd2-45e1-9805-dc802ecd8abb","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_79","server":"cloudflare.182682.xyz","port":80,"uuid":"89b2eb61-c9c8-4990-9205-7f5eec0501fc","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_80","server":"s4.cn-db.top","port":80,"uuid":"f0d0c1f0-bd67-4c9d-9827-757dc0043fab","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_81","server":"s4.cn-db.top","port":80,"uuid":"3d4beb9c-d081-40f1-a40f-4a50e1a29a24","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"premium.jts-wf4.site","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"premium.jts-wf4.site"}}}
+  - {"type":"vless","name":"美国_82","server":"cloudflare.182682.xyz","port":80,"uuid":"63ed729d-308b-4491-9ee0-6f2c38c2e047","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"premium.jts-wf4.site","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"premium.jts-wf4.site"}}}
+  - {"type":"vless","name":"US_3","server":"cloudflare.182682.xyz","port":80,"uuid":"a225a8ff-1505-4dfd-a3b7-59737bb499ee","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳
+    @WangCai2 /?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_83","server":"s4.cn-db.top","port":80,"uuid":"b2e95b0b-3280-4167-8cb8-378710416deb","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"premium.jts-wf4.site","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"premium.jts-wf4.site"}}}
+  - {"type":"vless","name":"美国_84","server":"cloudflare.182682.xyz","port":80,"uuid":"0a6936a5-12cb-4038-86bb-562894b7816f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_85","server":"s4.cn-db.top","port":80,"uuid":"6f565a11-f263-421a-bd3c-3d4efa51d4b0","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_86","server":"cloudflare.182682.xyz","port":80,"uuid":"acf0cb41-ac1a-448f-98cf-0b58a9f92b05","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"us","server":"cloudflare.182682.xyz","port":80,"uuid":"15510a34-7cec-411a-9256-279241522f81","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳
+    @WangCai2 /?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_87","server":"cloudflare.182682.xyz","port":80,"uuid":"63ed729d-308b-4491-9ee0-6f2c38c2e047","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"premium.jts-wf4.site","ws-opts":{"path":"Telegram@freecodes/?ed=2560","headers":{"host":"premium.jts-wf4.site"}}}
+  - {"type":"vless","name":"美国_88","server":"cloudflare.182682.xyz","port":80,"uuid":"9c0caffc-04c5-413e-98e8-666052b19da8","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_89","server":"cloudflare.182682.xyz","port":80,"uuid":"d5436600-7461-43ed-b7fa-4eeb00f7d8d4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_90","server":"s4.cn-db.top","port":80,"uuid":"2ad33a9c-ee61-4df4-96e1-1bf0987d082e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_91","server":"cloudflare.182682.xyz","port":80,"uuid":"6f565a11-f263-421a-bd3c-3d4efa51d4b0","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_92","server":"s4.cn-db.top","port":80,"uuid":"0a6936a5-12cb-4038-86bb-562894b7816f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"ss","name":"日本","server":"arxfw2b78fi2q9hzylhn.freesocks.work","port":443,"cipher":"chacha20-ietf-poly1305","password":"Nk9asglDzHzjktVzTkvhaA"}
+  - {"type":"vless","name":"美国_93","server":"cloudflare.182682.xyz","port":80,"uuid":"b2e95b0b-3280-4167-8cb8-378710416deb","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"premium.jts-wf4.site","ws-opts":{"path":"Telegram@freecodes/?ed=2560","headers":{"host":"premium.jts-wf4.site"}}}
+  - {"type":"vless","name":"美国_94","server":"s4.cn-db.top","port":80,"uuid":"9c0caffc-04c5-413e-98e8-666052b19da8","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_95","server":"cloudflare.182682.xyz","port":80,"uuid":"a4f5540d-fa8b-45ce-8e3c-ab0e23631d94","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"premium.jts-wf4.site","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"premium.jts-wf4.site"}}}
+  - {"type":"vless","name":"美国_96","server":"s4.cn-db.top","port":80,"uuid":"3766bbe4-16a2-4987-8833-2dcb20731a5f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_97","server":"s4.cn-db.top","port":80,"uuid":"781c352c-5b01-4920-9a0e-2a25732f694c","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_98","server":"s4.cn-db.top","port":80,"uuid":"1b604b11-1dd2-45e1-9805-dc802ecd8abb","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_99","server":"cloudflare.182682.xyz","port":80,"uuid":"77ece81f-a99a-4bd9-be0f-3c562c4dab8d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_100","server":"cloudflare.182682.xyz","port":80,"uuid":"0772da20-ea49-446d-816d-e42237c54848","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram@freecodes/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_101","server":"s4.cn-db.top","port":80,"uuid":"efdbbe04-38e0-46f3-a1c2-8c0c5604c636","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_102","server":"cloudflare.182682.xyz","port":80,"uuid":"72520d9d-695c-457e-b055-f65dc36e0e25","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_103","server":"s4.cn-db.top","port":80,"uuid":"63ed729d-308b-4491-9ee0-6f2c38c2e047","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"premium.jts-wf4.site","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"premium.jts-wf4.site"}}}
+  - {"type":"vless","name":"美国_104","server":"s4.cn-db.top","port":80,"uuid":"acf0cb41-ac1a-448f-98cf-0b58a9f92b05","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_105","server":"s4.cn-db.top","port":80,"uuid":"77ece81f-a99a-4bd9-be0f-3c562c4dab8d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_106","server":"s4.cn-db.top","port":80,"uuid":"15510a34-7cec-411a-9256-279241522f81","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_107","server":"cloudflare.182682.xyz","port":80,"uuid":"7c326126-7e75-457d-a8cd-8120da01eb25","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_108","server":"cloudflare.182682.xyz","port":80,"uuid":"7baac04e-a297-48a0-99e9-2deba9ae64fb","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_109","server":"s4.cn-db.top","port":80,"uuid":"1cfba626-b38f-4da9-b64b-74592729893e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"premium.jts-wf4.site","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"premium.jts-wf4.site"}}}
+  - {"type":"vless","name":"美国_110","server":"cloudflare.182682.xyz","port":80,"uuid":"b2e95b0b-3280-4167-8cb8-378710416deb","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"premium.jts-wf4.site","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"premium.jts-wf4.site"}}}
+  - {"type":"vless","name":"美国_111","server":"cloudflare.182682.xyz","port":80,"uuid":"7d265652-cacf-4b9a-aee6-f20ba4dbfe04","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_112","server":"cloudflare.182682.xyz","port":80,"uuid":"3d4beb9c-d081-40f1-a40f-4a50e1a29a24","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"premium.jts-wf4.site","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"premium.jts-wf4.site"}}}
+  - {"type":"vless","name":"US_4","server":"cloudflare.182682.xyz","port":80,"uuid":"89b2eb61-c9c8-4990-9205-7f5eec0501fc","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳
+    @WangCai2 /?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_113","server":"s4.cn-db.top","port":80,"uuid":"5e3fa0c3-59c0-4a9f-a9b5-169aad3a7b7b","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"premium.jts-wf4.site","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"premium.jts-wf4.site"}}}
+  - {"type":"vless","name":"美国_114","server":"cloudflare.182682.xyz","port":80,"uuid":"eed712ff-17d2-4e0b-bf0b-19ff3451b97a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_115","server":"cloudflare.182682.xyz","port":80,"uuid":"1cfba626-b38f-4da9-b64b-74592729893e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"premium.jts-wf4.site","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"premium.jts-wf4.site"}}}
+  - {"type":"vless","name":"US_5","server":"s4.cn-db.top","port":80,"uuid":"3d4beb9c-d081-40f1-a40f-4a50e1a29a24","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"premium.jts-wf4.site","ws-opts":{"path":"Telegram🇨🇳
+    @WangCai2 /?ed=2560","headers":{"host":"premium.jts-wf4.site"}}}
+  - {"type":"vless","name":"美国_116","server":"cloudflare.182682.xyz","port":80,"uuid":"1cfba626-b38f-4da9-b64b-74592729893e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"premium.jts-wf4.site","ws-opts":{"path":"Telegram@freecodes/?ed=2560","headers":{"host":"premium.jts-wf4.site"}}}
+  - {"type":"vless","name":"美国_117","server":"cloudflare.182682.xyz","port":80,"uuid":"2ad33a9c-ee61-4df4-96e1-1bf0987d082e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram@freecodes/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美国_118","server":"cloudflare.182682.xyz","port":80,"uuid":"efdbbe04-38e0-46f3-a1c2-8c0c5604c636","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"美國_75","server":"154.90.55.174","port":443,"uuid":"f47b5d3c-4051-476d-8280-89b1125b4467","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"aws.amazon.com","tls":false,"udp":true}
+  - {"type":"vless","name":"美国_119","server":"s4.cn-db.top","port":80,"uuid":"eed712ff-17d2-4e0b-bf0b-19ff3451b97a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"myvps.nilphreakz.me","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"myvps.nilphreakz.me"}}}
+  - {"type":"vless","name":"伊朗","server":"hybrid.arvancloud.online","port":44443,"uuid":"53fff6cc-b4ec-43e8-ade5-e0c42972fc33","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"www.speedtest.net","tls":false,"udp":true}
+  - {"type":"vless","name":"美國_76","server":"62.192.174.20","port":32164,"uuid":"b8ef8a97-cebc-438f-bed3-9e434f949fd6","skip-cert-verify":true,"network":"tcp","servername":"yahoo.com","tls":false,"udp":true}
+  - {"type":"vmess","name":"美国_120","server":"183.240.245.242","port":"33331","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vless","name":"美國_77","server":"npmjs.com","port":80,"uuid":"82de262c-cd5e-402f-a709-f6979fc7c93e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"fragrant-star-ebf2.daheg47484.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"fragrant-star-ebf2.daheg47484.workers.dev"}}}
+  - {"type":"vless","name":"俄國","server":"147.78.180.10","port":443,"uuid":"3c7a1227-5383-3a19-7084-76624ec8f84f","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"speed.cloudflare.com","tls":false,"udp":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 法國_1
       - 美國_1
       - 美國_2
       - 美國_3
-      - 法國_2
       - 美國_4
       - 美國_5
+      - 西班牙_1
+      - 俄羅斯_1
+      - 英國_1
       - 美國_6
-      - 法國_3
       - 美國_7
       - 美國_8
       - 美國_9
+      - 西班牙_2
+      - 德國_1
+      - 奧地利_1
+      - 德國_2
       - 美國_10
-      - 美國_11
+      - 德國_3
       - 荷蘭_1
-      - 荷蘭_2
-      - 法國_4
+      - 立陶宛_1
+      - 美國_11
+      - 奧地利_2
+      - 西班牙_3
       - 美國_12
+      - 荷蘭_2
+      - 英國_2
       - 美國_13
+      - 英国_1
+      - 俄羅斯_2
+      - 立陶宛_2
+      - 美国_1
+      - 西班牙_4
+      - US_1
+      - 西班牙_5
+      - 德國_4
+      - 俄羅斯_3
+      - 澳大利亞_1
+      - 美国_2
       - 美國_14
       - 美國_15
+      - 俄羅斯_4
+      - 俄羅斯_5
+      - 立陶宛_3
       - 美國_16
+      - 俄羅斯_6
+      - 立陶宛_4
       - 美國_17
       - 美國_18
-      - 荷蘭_3
-      - 美國_19
-      - 俄羅斯_1
-      - 美國_20
-      - 美國_21
-      - 美國_22
-      - 荷蘭_4
-      - 美國_23
-      - 荷蘭_5
-      - 荷蘭_6
-      - 荷蘭_7
-      - 羅馬尼亞_1
-      - 荷蘭_8
-      - 奧地利
-      - 荷蘭_9
-      - 俄羅斯_2
-      - 荷蘭_10
-      - 荷蘭_11
-      - 荷蘭_12
-      - 羅馬尼亞_2
-      - 荷蘭_13
-      - 俄羅斯_3
-      - 荷蘭_14
-      - 俄羅斯_4
-      - 荷蘭_15
-      - 荷蘭_16
-      - 荷蘭_17
-      - 荷蘭_18
-      - 美國_24
-      - 荷蘭_19
-      - 荷蘭_20
-      - 俄羅斯_5
-      - 俄羅斯_6
+      - 加拿大_1
       - 俄羅斯_7
       - 俄羅斯_8
-      - 美國_25
-      - 美國_26
-      - 美国_1
-      - 法國_5
-      - 英國_1
+      - 西班牙_6
+      - 奧地利_3
+      - 德國_5
+      - 立陶宛_5
       - 俄羅斯_9
+      - 美國_19
+      - 美國_20
+      - 立陶宛_6
+      - 美國_21
       - 俄羅斯_10
-      - 印度
-      - 美國_27
-      - 立陶宛
-      - 法國_6
-      - 烏克蘭_1
-      - 法國_7
-      - 美国_2
-      - 荷蘭_21
-      - 美國_28
-      - 法國_8
+      - 俄罗斯_1
       - 俄羅斯_11
-      - 德國
-      - 日本
-      - 美國_29
-      - 斯洛維尼亞_1
-      - 法國_9
-      - 荷蘭_22
-      - 芬蘭
+      - 俄羅斯_12
+      - 美國_22
       - 美国_3
-      - 美國_30
+      - 荷蘭_3
+      - 英國_3
+      - 英国_2
       - 美国_4
+      - 美國_23
       - 美国_5
+      - 荷兰_1
+      - 法國_1
+      - 美國_24
+      - 立陶宛_7
+      - 俄罗斯_2
+      - 美國_25
+      - 盧森堡_1
       - 美国_6
-      - 美国_7
+      - 俄罗斯_3
+      - 俄羅斯_13
+      - 美國_26
+      - 奧地利_4
+      - 美國_27
+      - 西班牙_7
+      - 美國_28
+      - 西班牙_8
+      - 美國_29
+      - 保加利亚
+      - 俄罗斯_4
+      - 英国_3
+      - 保加利亞_1
+      - 塞浦路斯
+      - 美國_30
+      - 荷蘭_4
+      - 澳大利亞_2
+      - 俄羅斯_14
+      - 西班牙_9
+      - 荷兰_2
+      - 荷兰_3
+      - 法國_2
+      - 英國_4
       - 美國_31
+      - 盧森堡_2
+      - 俄羅斯_15
+      - 摩爾多瓦
+      - 英國_5
       - 美國_32
       - 美國_33
       - 美國_34
+      - 荷蘭_5
+      - 加拿大_2
       - 美國_35
-      - 美国_8
-      - 美国_9
+      - 俄羅斯_16
+      - 美国_7
       - 美國_36
-      - 俄羅斯_12
-      - 澳大利亞
-      - 荷蘭_23
-      - 英國_2
+      - 俄羅斯_17
+      - 德國_6
       - 美國_37
+      - 俄羅斯_18
+      - 法國_3
       - 美國_38
-      - 美国_10
+      - 西班牙_10
       - 美國_39
       - 美國_40
+      - 法國_4
+      - 加拿大_3
+      - 荷蘭_6
+      - 西班牙_11
+      - 俄羅斯_19
+      - 美国_8
+      - 立陶宛_8
+      - 英國_6
       - 美國_41
-      - 斯洛維尼亞_2
-      - 美国_11
       - 美國_42
-      - 英國_3
-      - 南非
-      - 法國_10
+      - 英國_7
+      - 立陶宛_9
+      - 俄羅斯_20
+      - 英國_8
       - 美國_43
-      - 俄羅斯_13
-      - 拉脫維亞
+      - 西班牙_12
+      - 立陶宛_10
+      - 立陶宛_11
+      - 美國_44
+      - 美國_45
+      - 美國_46
+      - 俄羅斯_21
+      - 加拿大_4
+      - 立陶宛_12
+      - 西班牙_13
+      - 英國_9
+      - 西班牙_14
+      - 美國_47
+      - 俄羅斯_22
+      - 荷蘭_7
+      - 美国_9
+      - 美国_10
+      - 美国_11
+      - 奥地利
+      - 美國_48
+      - 英国_4
+      - 美國_49
+      - 俄羅斯_23
+      - 法國_5
+      - 荷蘭_8
+      - 美國_50
+      - 烏克蘭_1
+      - 美國_51
+      - 美國_52
+      - 美国_12
+      - 西班牙_15
+      - 西班牙_16
+      - 美國_53
+      - 俄羅斯_24
+      - 俄羅斯_25
+      - 西班牙_17
+      - 荷蘭_9
+      - 英國_10
+      - 俄羅斯_26
+      - 英國_11
+      - 美國_54
+      - 俄羅斯_27
+      - 法國_6
+      - 美国_13
+      - 西班牙_18
+      - 英國_12
+      - 英國_13
+      - 西班牙_19
+      - 俄羅斯_28
+      - 西班牙_20
+      - 俄罗斯_5
+      - 保加利亞_2
+      - 美國_55
+      - 俄羅斯_29
+      - 西班牙_21
+      - 西班牙_22
+      - 美國_56
+      - 立陶宛_13
+      - 美國_57
+      - 荷蘭_10
+      - 美国_14
+      - 澳大利亞_3
+      - 美國_58
+      - 英國_14
+      - 荷蘭_11
+      - 澳大利亞_4
+      - 立陶宛_14
+      - 英國_15
+      - 英國_16
+      - 美國_59
+      - 美国_15
+      - 德國_7
+      - 俄羅斯_30
+      - 立陶宛_15
+      - 美國_60
+      - 俄羅斯_31
+      - 美國_61
+      - 德國_8
+      - 英國_17
+      - 美國_62
+      - 西班牙_23
+      - 盧森堡_3
+      - 美国_16
+      - 荷兰_4
+      - 俄羅斯_32
+      - 美國_63
+      - 西班牙_24
+      - 美國_64
+      - 荷蘭_12
+      - 立陶宛_16
+      - 法國_7
+      - 西班牙_25
+      - 美國_65
+      - 美国_17
+      - 西班牙_26
+      - 立陶宛_17
+      - 西班牙_27
+      - 美國_66
+      - 俄罗斯_6
+      - 立陶宛_18
+      - 美國_67
+      - 法國_8
+      - 美国_18
+      - 英國_18
+      - 美國_68
+      - 俄羅斯_33
+      - 美國_69
+      - 美國_70
+      - 保加利亞_3
+      - 美国_19
+      - 美國_71
+      - 美國_72
+      - 美国_20
+      - 美国_21
+      - 英國_19
+      - 南非
+      - 美國_73
+      - 立陶宛_19
       - 烏克蘭_2
+      - 俄羅斯_34
+      - 斯洛文尼亞
+      - 美国_22
+      - 美国_23
+      - 美国_24
+      - 俄羅斯_35
+      - 俄羅斯_36
+      - 美国_25
+      - 美国_26
+      - 美国_27
+      - 美国_28
+      - 美国_29
+      - 美国_30
+      - 美國_74
+      - 美国_31
+      - 美国_32
+      - 美国_33
+      - 美国_34
+      - 美国_35
+      - 美国_36
+      - 美国_37
+      - 美国_38
+      - 美国_39
+      - 美国_40
+      - 美国_41
+      - 美国_42
+      - 美国_43
+      - 美国_44
+      - 美国_45
+      - 美国_46
+      - 美国_47
+      - 美国_48
+      - 美国_49
+      - 美国_50
+      - 美国_51
+      - 美国_52
+      - 美国_53
+      - 美国_54
+      - 美国_55
+      - US_2
+      - 美国_56
+      - 美国_57
+      - 美国_58
+      - 美国_59
+      - 美国_60
+      - 美国_61
+      - 美国_62
+      - 美国_63
+      - 美国_64
+      - 美国_65
+      - 美国_66
+      - 美国_67
+      - 美国_68
+      - 美国_69
+      - 美国_70
+      - 美国_71
+      - 美国_72
+      - 美国_73
+      - 美国_74
+      - 美国_75
+      - 美国_76
+      - 美国_77
+      - 美国_78
+      - 美国_79
+      - 美国_80
+      - 美国_81
+      - 美国_82
+      - US_3
+      - 美国_83
+      - 美国_84
+      - 美国_85
+      - 美国_86
+      - us
+      - 美国_87
+      - 美国_88
+      - 美国_89
+      - 美国_90
+      - 美国_91
+      - 美国_92
+      - 日本
+      - 美国_93
+      - 美国_94
+      - 美国_95
+      - 美国_96
+      - 美国_97
+      - 美国_98
+      - 美国_99
+      - 美国_100
+      - 美国_101
+      - 美国_102
+      - 美国_103
+      - 美国_104
+      - 美国_105
+      - 美国_106
+      - 美国_107
+      - 美国_108
+      - 美国_109
+      - 美国_110
+      - 美国_111
+      - 美国_112
+      - US_4
+      - 美国_113
+      - 美国_114
+      - 美国_115
+      - US_5
+      - 美国_116
+      - 美国_117
+      - 美国_118
+      - 美國_75
+      - 美国_119
+      - 伊朗
+      - 美國_76
+      - 美国_120
+      - 美國_77
+      - 俄國
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 法國_1
       - 美國_1
       - 美國_2
       - 美國_3
-      - 法國_2
       - 美國_4
       - 美國_5
+      - 西班牙_1
+      - 俄羅斯_1
+      - 英國_1
       - 美國_6
-      - 法國_3
       - 美國_7
       - 美國_8
       - 美國_9
+      - 西班牙_2
+      - 德國_1
+      - 奧地利_1
+      - 德國_2
       - 美國_10
-      - 美國_11
+      - 德國_3
       - 荷蘭_1
-      - 荷蘭_2
-      - 法國_4
+      - 立陶宛_1
+      - 美國_11
+      - 奧地利_2
+      - 西班牙_3
       - 美國_12
+      - 荷蘭_2
+      - 英國_2
       - 美國_13
+      - 英国_1
+      - 俄羅斯_2
+      - 立陶宛_2
+      - 美国_1
+      - 西班牙_4
+      - US_1
+      - 西班牙_5
+      - 德國_4
+      - 俄羅斯_3
+      - 澳大利亞_1
+      - 美国_2
       - 美國_14
       - 美國_15
+      - 俄羅斯_4
+      - 俄羅斯_5
+      - 立陶宛_3
       - 美國_16
+      - 俄羅斯_6
+      - 立陶宛_4
       - 美國_17
       - 美國_18
-      - 荷蘭_3
-      - 美國_19
-      - 俄羅斯_1
-      - 美國_20
-      - 美國_21
-      - 美國_22
-      - 荷蘭_4
-      - 美國_23
-      - 荷蘭_5
-      - 荷蘭_6
-      - 荷蘭_7
-      - 羅馬尼亞_1
-      - 荷蘭_8
-      - 奧地利
-      - 荷蘭_9
-      - 俄羅斯_2
-      - 荷蘭_10
-      - 荷蘭_11
-      - 荷蘭_12
-      - 羅馬尼亞_2
-      - 荷蘭_13
-      - 俄羅斯_3
-      - 荷蘭_14
-      - 俄羅斯_4
-      - 荷蘭_15
-      - 荷蘭_16
-      - 荷蘭_17
-      - 荷蘭_18
-      - 美國_24
-      - 荷蘭_19
-      - 荷蘭_20
-      - 俄羅斯_5
-      - 俄羅斯_6
+      - 加拿大_1
       - 俄羅斯_7
       - 俄羅斯_8
-      - 美國_25
-      - 美國_26
-      - 美国_1
-      - 法國_5
-      - 英國_1
+      - 西班牙_6
+      - 奧地利_3
+      - 德國_5
+      - 立陶宛_5
       - 俄羅斯_9
+      - 美國_19
+      - 美國_20
+      - 立陶宛_6
+      - 美國_21
       - 俄羅斯_10
-      - 印度
-      - 美國_27
-      - 立陶宛
-      - 法國_6
-      - 烏克蘭_1
-      - 法國_7
-      - 美国_2
-      - 荷蘭_21
-      - 美國_28
-      - 法國_8
+      - 俄罗斯_1
       - 俄羅斯_11
-      - 德國
-      - 日本
-      - 美國_29
-      - 斯洛維尼亞_1
-      - 法國_9
-      - 荷蘭_22
-      - 芬蘭
+      - 俄羅斯_12
+      - 美國_22
       - 美国_3
-      - 美國_30
+      - 荷蘭_3
+      - 英國_3
+      - 英国_2
       - 美国_4
+      - 美國_23
       - 美国_5
+      - 荷兰_1
+      - 法國_1
+      - 美國_24
+      - 立陶宛_7
+      - 俄罗斯_2
+      - 美國_25
+      - 盧森堡_1
       - 美国_6
-      - 美国_7
+      - 俄罗斯_3
+      - 俄羅斯_13
+      - 美國_26
+      - 奧地利_4
+      - 美國_27
+      - 西班牙_7
+      - 美國_28
+      - 西班牙_8
+      - 美國_29
+      - 保加利亚
+      - 俄罗斯_4
+      - 英国_3
+      - 保加利亞_1
+      - 塞浦路斯
+      - 美國_30
+      - 荷蘭_4
+      - 澳大利亞_2
+      - 俄羅斯_14
+      - 西班牙_9
+      - 荷兰_2
+      - 荷兰_3
+      - 法國_2
+      - 英國_4
       - 美國_31
+      - 盧森堡_2
+      - 俄羅斯_15
+      - 摩爾多瓦
+      - 英國_5
       - 美國_32
       - 美國_33
       - 美國_34
+      - 荷蘭_5
+      - 加拿大_2
       - 美國_35
-      - 美国_8
-      - 美国_9
+      - 俄羅斯_16
+      - 美国_7
       - 美國_36
-      - 俄羅斯_12
-      - 澳大利亞
-      - 荷蘭_23
-      - 英國_2
+      - 俄羅斯_17
+      - 德國_6
       - 美國_37
+      - 俄羅斯_18
+      - 法國_3
       - 美國_38
-      - 美国_10
+      - 西班牙_10
       - 美國_39
       - 美國_40
+      - 法國_4
+      - 加拿大_3
+      - 荷蘭_6
+      - 西班牙_11
+      - 俄羅斯_19
+      - 美国_8
+      - 立陶宛_8
+      - 英國_6
       - 美國_41
-      - 斯洛維尼亞_2
-      - 美国_11
       - 美國_42
-      - 英國_3
-      - 南非
-      - 法國_10
+      - 英國_7
+      - 立陶宛_9
+      - 俄羅斯_20
+      - 英國_8
       - 美國_43
-      - 俄羅斯_13
-      - 拉脫維亞
+      - 西班牙_12
+      - 立陶宛_10
+      - 立陶宛_11
+      - 美國_44
+      - 美國_45
+      - 美國_46
+      - 俄羅斯_21
+      - 加拿大_4
+      - 立陶宛_12
+      - 西班牙_13
+      - 英國_9
+      - 西班牙_14
+      - 美國_47
+      - 俄羅斯_22
+      - 荷蘭_7
+      - 美国_9
+      - 美国_10
+      - 美国_11
+      - 奥地利
+      - 美國_48
+      - 英国_4
+      - 美國_49
+      - 俄羅斯_23
+      - 法國_5
+      - 荷蘭_8
+      - 美國_50
+      - 烏克蘭_1
+      - 美國_51
+      - 美國_52
+      - 美国_12
+      - 西班牙_15
+      - 西班牙_16
+      - 美國_53
+      - 俄羅斯_24
+      - 俄羅斯_25
+      - 西班牙_17
+      - 荷蘭_9
+      - 英國_10
+      - 俄羅斯_26
+      - 英國_11
+      - 美國_54
+      - 俄羅斯_27
+      - 法國_6
+      - 美国_13
+      - 西班牙_18
+      - 英國_12
+      - 英國_13
+      - 西班牙_19
+      - 俄羅斯_28
+      - 西班牙_20
+      - 俄罗斯_5
+      - 保加利亞_2
+      - 美國_55
+      - 俄羅斯_29
+      - 西班牙_21
+      - 西班牙_22
+      - 美國_56
+      - 立陶宛_13
+      - 美國_57
+      - 荷蘭_10
+      - 美国_14
+      - 澳大利亞_3
+      - 美國_58
+      - 英國_14
+      - 荷蘭_11
+      - 澳大利亞_4
+      - 立陶宛_14
+      - 英國_15
+      - 英國_16
+      - 美國_59
+      - 美国_15
+      - 德國_7
+      - 俄羅斯_30
+      - 立陶宛_15
+      - 美國_60
+      - 俄羅斯_31
+      - 美國_61
+      - 德國_8
+      - 英國_17
+      - 美國_62
+      - 西班牙_23
+      - 盧森堡_3
+      - 美国_16
+      - 荷兰_4
+      - 俄羅斯_32
+      - 美國_63
+      - 西班牙_24
+      - 美國_64
+      - 荷蘭_12
+      - 立陶宛_16
+      - 法國_7
+      - 西班牙_25
+      - 美國_65
+      - 美国_17
+      - 西班牙_26
+      - 立陶宛_17
+      - 西班牙_27
+      - 美國_66
+      - 俄罗斯_6
+      - 立陶宛_18
+      - 美國_67
+      - 法國_8
+      - 美国_18
+      - 英國_18
+      - 美國_68
+      - 俄羅斯_33
+      - 美國_69
+      - 美國_70
+      - 保加利亞_3
+      - 美国_19
+      - 美國_71
+      - 美國_72
+      - 美国_20
+      - 美国_21
+      - 英國_19
+      - 南非
+      - 美國_73
+      - 立陶宛_19
       - 烏克蘭_2
+      - 俄羅斯_34
+      - 斯洛文尼亞
+      - 美国_22
+      - 美国_23
+      - 美国_24
+      - 俄羅斯_35
+      - 俄羅斯_36
+      - 美国_25
+      - 美国_26
+      - 美国_27
+      - 美国_28
+      - 美国_29
+      - 美国_30
+      - 美國_74
+      - 美国_31
+      - 美国_32
+      - 美国_33
+      - 美国_34
+      - 美国_35
+      - 美国_36
+      - 美国_37
+      - 美国_38
+      - 美国_39
+      - 美国_40
+      - 美国_41
+      - 美国_42
+      - 美国_43
+      - 美国_44
+      - 美国_45
+      - 美国_46
+      - 美国_47
+      - 美国_48
+      - 美国_49
+      - 美国_50
+      - 美国_51
+      - 美国_52
+      - 美国_53
+      - 美国_54
+      - 美国_55
+      - US_2
+      - 美国_56
+      - 美国_57
+      - 美国_58
+      - 美国_59
+      - 美国_60
+      - 美国_61
+      - 美国_62
+      - 美国_63
+      - 美国_64
+      - 美国_65
+      - 美国_66
+      - 美国_67
+      - 美国_68
+      - 美国_69
+      - 美国_70
+      - 美国_71
+      - 美国_72
+      - 美国_73
+      - 美国_74
+      - 美国_75
+      - 美国_76
+      - 美国_77
+      - 美国_78
+      - 美国_79
+      - 美国_80
+      - 美国_81
+      - 美国_82
+      - US_3
+      - 美国_83
+      - 美国_84
+      - 美国_85
+      - 美国_86
+      - us
+      - 美国_87
+      - 美国_88
+      - 美国_89
+      - 美国_90
+      - 美国_91
+      - 美国_92
+      - 日本
+      - 美国_93
+      - 美国_94
+      - 美国_95
+      - 美国_96
+      - 美国_97
+      - 美国_98
+      - 美国_99
+      - 美国_100
+      - 美国_101
+      - 美国_102
+      - 美国_103
+      - 美国_104
+      - 美国_105
+      - 美国_106
+      - 美国_107
+      - 美国_108
+      - 美国_109
+      - 美国_110
+      - 美国_111
+      - 美国_112
+      - US_4
+      - 美国_113
+      - 美国_114
+      - 美国_115
+      - US_5
+      - 美国_116
+      - 美国_117
+      - 美国_118
+      - 美國_75
+      - 美国_119
+      - 伊朗
+      - 美國_76
+      - 美国_120
+      - 美國_77
+      - 俄國
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 法國_1
       - 美國_1
       - 美國_2
       - 美國_3
-      - 法國_2
       - 美國_4
       - 美國_5
+      - 西班牙_1
+      - 俄羅斯_1
+      - 英國_1
       - 美國_6
-      - 法國_3
       - 美國_7
       - 美國_8
       - 美國_9
+      - 西班牙_2
+      - 德國_1
+      - 奧地利_1
+      - 德國_2
       - 美國_10
-      - 美國_11
+      - 德國_3
       - 荷蘭_1
-      - 荷蘭_2
-      - 法國_4
+      - 立陶宛_1
+      - 美國_11
+      - 奧地利_2
+      - 西班牙_3
       - 美國_12
+      - 荷蘭_2
+      - 英國_2
       - 美國_13
+      - 英国_1
+      - 俄羅斯_2
+      - 立陶宛_2
+      - 美国_1
+      - 西班牙_4
+      - US_1
+      - 西班牙_5
+      - 德國_4
+      - 俄羅斯_3
+      - 澳大利亞_1
+      - 美国_2
       - 美國_14
       - 美國_15
+      - 俄羅斯_4
+      - 俄羅斯_5
+      - 立陶宛_3
       - 美國_16
+      - 俄羅斯_6
+      - 立陶宛_4
       - 美國_17
       - 美國_18
-      - 荷蘭_3
-      - 美國_19
-      - 俄羅斯_1
-      - 美國_20
-      - 美國_21
-      - 美國_22
-      - 荷蘭_4
-      - 美國_23
-      - 荷蘭_5
-      - 荷蘭_6
-      - 荷蘭_7
-      - 羅馬尼亞_1
-      - 荷蘭_8
-      - 奧地利
-      - 荷蘭_9
-      - 俄羅斯_2
-      - 荷蘭_10
-      - 荷蘭_11
-      - 荷蘭_12
-      - 羅馬尼亞_2
-      - 荷蘭_13
-      - 俄羅斯_3
-      - 荷蘭_14
-      - 俄羅斯_4
-      - 荷蘭_15
-      - 荷蘭_16
-      - 荷蘭_17
-      - 荷蘭_18
-      - 美國_24
-      - 荷蘭_19
-      - 荷蘭_20
-      - 俄羅斯_5
-      - 俄羅斯_6
+      - 加拿大_1
       - 俄羅斯_7
       - 俄羅斯_8
-      - 美國_25
-      - 美國_26
-      - 美国_1
-      - 法國_5
-      - 英國_1
+      - 西班牙_6
+      - 奧地利_3
+      - 德國_5
+      - 立陶宛_5
       - 俄羅斯_9
+      - 美國_19
+      - 美國_20
+      - 立陶宛_6
+      - 美國_21
       - 俄羅斯_10
-      - 印度
-      - 美國_27
-      - 立陶宛
-      - 法國_6
-      - 烏克蘭_1
-      - 法國_7
-      - 美国_2
-      - 荷蘭_21
-      - 美國_28
-      - 法國_8
+      - 俄罗斯_1
       - 俄羅斯_11
-      - 德國
-      - 日本
-      - 美國_29
-      - 斯洛維尼亞_1
-      - 法國_9
-      - 荷蘭_22
-      - 芬蘭
+      - 俄羅斯_12
+      - 美國_22
       - 美国_3
-      - 美國_30
+      - 荷蘭_3
+      - 英國_3
+      - 英国_2
       - 美国_4
+      - 美國_23
       - 美国_5
+      - 荷兰_1
+      - 法國_1
+      - 美國_24
+      - 立陶宛_7
+      - 俄罗斯_2
+      - 美國_25
+      - 盧森堡_1
       - 美国_6
-      - 美国_7
+      - 俄罗斯_3
+      - 俄羅斯_13
+      - 美國_26
+      - 奧地利_4
+      - 美國_27
+      - 西班牙_7
+      - 美國_28
+      - 西班牙_8
+      - 美國_29
+      - 保加利亚
+      - 俄罗斯_4
+      - 英国_3
+      - 保加利亞_1
+      - 塞浦路斯
+      - 美國_30
+      - 荷蘭_4
+      - 澳大利亞_2
+      - 俄羅斯_14
+      - 西班牙_9
+      - 荷兰_2
+      - 荷兰_3
+      - 法國_2
+      - 英國_4
       - 美國_31
+      - 盧森堡_2
+      - 俄羅斯_15
+      - 摩爾多瓦
+      - 英國_5
       - 美國_32
       - 美國_33
       - 美國_34
+      - 荷蘭_5
+      - 加拿大_2
       - 美國_35
-      - 美国_8
-      - 美国_9
+      - 俄羅斯_16
+      - 美国_7
       - 美國_36
-      - 俄羅斯_12
-      - 澳大利亞
-      - 荷蘭_23
-      - 英國_2
+      - 俄羅斯_17
+      - 德國_6
       - 美國_37
+      - 俄羅斯_18
+      - 法國_3
       - 美國_38
-      - 美国_10
+      - 西班牙_10
       - 美國_39
       - 美國_40
+      - 法國_4
+      - 加拿大_3
+      - 荷蘭_6
+      - 西班牙_11
+      - 俄羅斯_19
+      - 美国_8
+      - 立陶宛_8
+      - 英國_6
       - 美國_41
-      - 斯洛維尼亞_2
-      - 美国_11
       - 美國_42
-      - 英國_3
-      - 南非
-      - 法國_10
+      - 英國_7
+      - 立陶宛_9
+      - 俄羅斯_20
+      - 英國_8
       - 美國_43
-      - 俄羅斯_13
-      - 拉脫維亞
+      - 西班牙_12
+      - 立陶宛_10
+      - 立陶宛_11
+      - 美國_44
+      - 美國_45
+      - 美國_46
+      - 俄羅斯_21
+      - 加拿大_4
+      - 立陶宛_12
+      - 西班牙_13
+      - 英國_9
+      - 西班牙_14
+      - 美國_47
+      - 俄羅斯_22
+      - 荷蘭_7
+      - 美国_9
+      - 美国_10
+      - 美国_11
+      - 奥地利
+      - 美國_48
+      - 英国_4
+      - 美國_49
+      - 俄羅斯_23
+      - 法國_5
+      - 荷蘭_8
+      - 美國_50
+      - 烏克蘭_1
+      - 美國_51
+      - 美國_52
+      - 美国_12
+      - 西班牙_15
+      - 西班牙_16
+      - 美國_53
+      - 俄羅斯_24
+      - 俄羅斯_25
+      - 西班牙_17
+      - 荷蘭_9
+      - 英國_10
+      - 俄羅斯_26
+      - 英國_11
+      - 美國_54
+      - 俄羅斯_27
+      - 法國_6
+      - 美国_13
+      - 西班牙_18
+      - 英國_12
+      - 英國_13
+      - 西班牙_19
+      - 俄羅斯_28
+      - 西班牙_20
+      - 俄罗斯_5
+      - 保加利亞_2
+      - 美國_55
+      - 俄羅斯_29
+      - 西班牙_21
+      - 西班牙_22
+      - 美國_56
+      - 立陶宛_13
+      - 美國_57
+      - 荷蘭_10
+      - 美国_14
+      - 澳大利亞_3
+      - 美國_58
+      - 英國_14
+      - 荷蘭_11
+      - 澳大利亞_4
+      - 立陶宛_14
+      - 英國_15
+      - 英國_16
+      - 美國_59
+      - 美国_15
+      - 德國_7
+      - 俄羅斯_30
+      - 立陶宛_15
+      - 美國_60
+      - 俄羅斯_31
+      - 美國_61
+      - 德國_8
+      - 英國_17
+      - 美國_62
+      - 西班牙_23
+      - 盧森堡_3
+      - 美国_16
+      - 荷兰_4
+      - 俄羅斯_32
+      - 美國_63
+      - 西班牙_24
+      - 美國_64
+      - 荷蘭_12
+      - 立陶宛_16
+      - 法國_7
+      - 西班牙_25
+      - 美國_65
+      - 美国_17
+      - 西班牙_26
+      - 立陶宛_17
+      - 西班牙_27
+      - 美國_66
+      - 俄罗斯_6
+      - 立陶宛_18
+      - 美國_67
+      - 法國_8
+      - 美国_18
+      - 英國_18
+      - 美國_68
+      - 俄羅斯_33
+      - 美國_69
+      - 美國_70
+      - 保加利亞_3
+      - 美国_19
+      - 美國_71
+      - 美國_72
+      - 美国_20
+      - 美国_21
+      - 英國_19
+      - 南非
+      - 美國_73
+      - 立陶宛_19
       - 烏克蘭_2
+      - 俄羅斯_34
+      - 斯洛文尼亞
+      - 美国_22
+      - 美国_23
+      - 美国_24
+      - 俄羅斯_35
+      - 俄羅斯_36
+      - 美国_25
+      - 美国_26
+      - 美国_27
+      - 美国_28
+      - 美国_29
+      - 美国_30
+      - 美國_74
+      - 美国_31
+      - 美国_32
+      - 美国_33
+      - 美国_34
+      - 美国_35
+      - 美国_36
+      - 美国_37
+      - 美国_38
+      - 美国_39
+      - 美国_40
+      - 美国_41
+      - 美国_42
+      - 美国_43
+      - 美国_44
+      - 美国_45
+      - 美国_46
+      - 美国_47
+      - 美国_48
+      - 美国_49
+      - 美国_50
+      - 美国_51
+      - 美国_52
+      - 美国_53
+      - 美国_54
+      - 美国_55
+      - US_2
+      - 美国_56
+      - 美国_57
+      - 美国_58
+      - 美国_59
+      - 美国_60
+      - 美国_61
+      - 美国_62
+      - 美国_63
+      - 美国_64
+      - 美国_65
+      - 美国_66
+      - 美国_67
+      - 美国_68
+      - 美国_69
+      - 美国_70
+      - 美国_71
+      - 美国_72
+      - 美国_73
+      - 美国_74
+      - 美国_75
+      - 美国_76
+      - 美国_77
+      - 美国_78
+      - 美国_79
+      - 美国_80
+      - 美国_81
+      - 美国_82
+      - US_3
+      - 美国_83
+      - 美国_84
+      - 美国_85
+      - 美国_86
+      - us
+      - 美国_87
+      - 美国_88
+      - 美国_89
+      - 美国_90
+      - 美国_91
+      - 美国_92
+      - 日本
+      - 美国_93
+      - 美国_94
+      - 美国_95
+      - 美国_96
+      - 美国_97
+      - 美国_98
+      - 美国_99
+      - 美国_100
+      - 美国_101
+      - 美国_102
+      - 美国_103
+      - 美国_104
+      - 美国_105
+      - 美国_106
+      - 美国_107
+      - 美国_108
+      - 美国_109
+      - 美国_110
+      - 美国_111
+      - 美国_112
+      - US_4
+      - 美国_113
+      - 美国_114
+      - 美国_115
+      - US_5
+      - 美国_116
+      - 美国_117
+      - 美国_118
+      - 美國_75
+      - 美国_119
+      - 伊朗
+      - 美國_76
+      - 美国_120
+      - 美國_77
+      - 俄國
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 法國_1
       - 美國_1
       - 美國_2
       - 美國_3
-      - 法國_2
       - 美國_4
       - 美國_5
+      - 西班牙_1
+      - 俄羅斯_1
+      - 英國_1
       - 美國_6
-      - 法國_3
       - 美國_7
       - 美國_8
       - 美國_9
+      - 西班牙_2
+      - 德國_1
+      - 奧地利_1
+      - 德國_2
       - 美國_10
-      - 美國_11
+      - 德國_3
       - 荷蘭_1
-      - 荷蘭_2
-      - 法國_4
+      - 立陶宛_1
+      - 美國_11
+      - 奧地利_2
+      - 西班牙_3
       - 美國_12
+      - 荷蘭_2
+      - 英國_2
       - 美國_13
+      - 英国_1
+      - 俄羅斯_2
+      - 立陶宛_2
+      - 美国_1
+      - 西班牙_4
+      - US_1
+      - 西班牙_5
+      - 德國_4
+      - 俄羅斯_3
+      - 澳大利亞_1
+      - 美国_2
       - 美國_14
       - 美國_15
+      - 俄羅斯_4
+      - 俄羅斯_5
+      - 立陶宛_3
       - 美國_16
+      - 俄羅斯_6
+      - 立陶宛_4
       - 美國_17
       - 美國_18
-      - 荷蘭_3
-      - 美國_19
-      - 俄羅斯_1
-      - 美國_20
-      - 美國_21
-      - 美國_22
-      - 荷蘭_4
-      - 美國_23
-      - 荷蘭_5
-      - 荷蘭_6
-      - 荷蘭_7
-      - 羅馬尼亞_1
-      - 荷蘭_8
-      - 奧地利
-      - 荷蘭_9
-      - 俄羅斯_2
-      - 荷蘭_10
-      - 荷蘭_11
-      - 荷蘭_12
-      - 羅馬尼亞_2
-      - 荷蘭_13
-      - 俄羅斯_3
-      - 荷蘭_14
-      - 俄羅斯_4
-      - 荷蘭_15
-      - 荷蘭_16
-      - 荷蘭_17
-      - 荷蘭_18
-      - 美國_24
-      - 荷蘭_19
-      - 荷蘭_20
-      - 俄羅斯_5
-      - 俄羅斯_6
+      - 加拿大_1
       - 俄羅斯_7
       - 俄羅斯_8
-      - 美國_25
-      - 美國_26
-      - 美国_1
-      - 法國_5
-      - 英國_1
+      - 西班牙_6
+      - 奧地利_3
+      - 德國_5
+      - 立陶宛_5
       - 俄羅斯_9
+      - 美國_19
+      - 美國_20
+      - 立陶宛_6
+      - 美國_21
       - 俄羅斯_10
-      - 印度
-      - 美國_27
-      - 立陶宛
-      - 法國_6
-      - 烏克蘭_1
-      - 法國_7
-      - 美国_2
-      - 荷蘭_21
-      - 美國_28
-      - 法國_8
+      - 俄罗斯_1
       - 俄羅斯_11
-      - 德國
-      - 日本
-      - 美國_29
-      - 斯洛維尼亞_1
-      - 法國_9
-      - 荷蘭_22
-      - 芬蘭
+      - 俄羅斯_12
+      - 美國_22
       - 美国_3
-      - 美國_30
+      - 荷蘭_3
+      - 英國_3
+      - 英国_2
       - 美国_4
+      - 美國_23
       - 美国_5
+      - 荷兰_1
+      - 法國_1
+      - 美國_24
+      - 立陶宛_7
+      - 俄罗斯_2
+      - 美國_25
+      - 盧森堡_1
       - 美国_6
-      - 美国_7
+      - 俄罗斯_3
+      - 俄羅斯_13
+      - 美國_26
+      - 奧地利_4
+      - 美國_27
+      - 西班牙_7
+      - 美國_28
+      - 西班牙_8
+      - 美國_29
+      - 保加利亚
+      - 俄罗斯_4
+      - 英国_3
+      - 保加利亞_1
+      - 塞浦路斯
+      - 美國_30
+      - 荷蘭_4
+      - 澳大利亞_2
+      - 俄羅斯_14
+      - 西班牙_9
+      - 荷兰_2
+      - 荷兰_3
+      - 法國_2
+      - 英國_4
       - 美國_31
+      - 盧森堡_2
+      - 俄羅斯_15
+      - 摩爾多瓦
+      - 英國_5
       - 美國_32
       - 美國_33
       - 美國_34
+      - 荷蘭_5
+      - 加拿大_2
       - 美國_35
-      - 美国_8
-      - 美国_9
+      - 俄羅斯_16
+      - 美国_7
       - 美國_36
-      - 俄羅斯_12
-      - 澳大利亞
-      - 荷蘭_23
-      - 英國_2
+      - 俄羅斯_17
+      - 德國_6
       - 美國_37
+      - 俄羅斯_18
+      - 法國_3
       - 美國_38
-      - 美国_10
+      - 西班牙_10
       - 美國_39
       - 美國_40
+      - 法國_4
+      - 加拿大_3
+      - 荷蘭_6
+      - 西班牙_11
+      - 俄羅斯_19
+      - 美国_8
+      - 立陶宛_8
+      - 英國_6
       - 美國_41
-      - 斯洛維尼亞_2
-      - 美国_11
       - 美國_42
-      - 英國_3
-      - 南非
-      - 法國_10
+      - 英國_7
+      - 立陶宛_9
+      - 俄羅斯_20
+      - 英國_8
       - 美國_43
-      - 俄羅斯_13
-      - 拉脫維亞
+      - 西班牙_12
+      - 立陶宛_10
+      - 立陶宛_11
+      - 美國_44
+      - 美國_45
+      - 美國_46
+      - 俄羅斯_21
+      - 加拿大_4
+      - 立陶宛_12
+      - 西班牙_13
+      - 英國_9
+      - 西班牙_14
+      - 美國_47
+      - 俄羅斯_22
+      - 荷蘭_7
+      - 美国_9
+      - 美国_10
+      - 美国_11
+      - 奥地利
+      - 美國_48
+      - 英国_4
+      - 美國_49
+      - 俄羅斯_23
+      - 法國_5
+      - 荷蘭_8
+      - 美國_50
+      - 烏克蘭_1
+      - 美國_51
+      - 美國_52
+      - 美国_12
+      - 西班牙_15
+      - 西班牙_16
+      - 美國_53
+      - 俄羅斯_24
+      - 俄羅斯_25
+      - 西班牙_17
+      - 荷蘭_9
+      - 英國_10
+      - 俄羅斯_26
+      - 英國_11
+      - 美國_54
+      - 俄羅斯_27
+      - 法國_6
+      - 美国_13
+      - 西班牙_18
+      - 英國_12
+      - 英國_13
+      - 西班牙_19
+      - 俄羅斯_28
+      - 西班牙_20
+      - 俄罗斯_5
+      - 保加利亞_2
+      - 美國_55
+      - 俄羅斯_29
+      - 西班牙_21
+      - 西班牙_22
+      - 美國_56
+      - 立陶宛_13
+      - 美國_57
+      - 荷蘭_10
+      - 美国_14
+      - 澳大利亞_3
+      - 美國_58
+      - 英國_14
+      - 荷蘭_11
+      - 澳大利亞_4
+      - 立陶宛_14
+      - 英國_15
+      - 英國_16
+      - 美國_59
+      - 美国_15
+      - 德國_7
+      - 俄羅斯_30
+      - 立陶宛_15
+      - 美國_60
+      - 俄羅斯_31
+      - 美國_61
+      - 德國_8
+      - 英國_17
+      - 美國_62
+      - 西班牙_23
+      - 盧森堡_3
+      - 美国_16
+      - 荷兰_4
+      - 俄羅斯_32
+      - 美國_63
+      - 西班牙_24
+      - 美國_64
+      - 荷蘭_12
+      - 立陶宛_16
+      - 法國_7
+      - 西班牙_25
+      - 美國_65
+      - 美国_17
+      - 西班牙_26
+      - 立陶宛_17
+      - 西班牙_27
+      - 美國_66
+      - 俄罗斯_6
+      - 立陶宛_18
+      - 美國_67
+      - 法國_8
+      - 美国_18
+      - 英國_18
+      - 美國_68
+      - 俄羅斯_33
+      - 美國_69
+      - 美國_70
+      - 保加利亞_3
+      - 美国_19
+      - 美國_71
+      - 美國_72
+      - 美国_20
+      - 美国_21
+      - 英國_19
+      - 南非
+      - 美國_73
+      - 立陶宛_19
       - 烏克蘭_2
+      - 俄羅斯_34
+      - 斯洛文尼亞
+      - 美国_22
+      - 美国_23
+      - 美国_24
+      - 俄羅斯_35
+      - 俄羅斯_36
+      - 美国_25
+      - 美国_26
+      - 美国_27
+      - 美国_28
+      - 美国_29
+      - 美国_30
+      - 美國_74
+      - 美国_31
+      - 美国_32
+      - 美国_33
+      - 美国_34
+      - 美国_35
+      - 美国_36
+      - 美国_37
+      - 美国_38
+      - 美国_39
+      - 美国_40
+      - 美国_41
+      - 美国_42
+      - 美国_43
+      - 美国_44
+      - 美国_45
+      - 美国_46
+      - 美国_47
+      - 美国_48
+      - 美国_49
+      - 美国_50
+      - 美国_51
+      - 美国_52
+      - 美国_53
+      - 美国_54
+      - 美国_55
+      - US_2
+      - 美国_56
+      - 美国_57
+      - 美国_58
+      - 美国_59
+      - 美国_60
+      - 美国_61
+      - 美国_62
+      - 美国_63
+      - 美国_64
+      - 美国_65
+      - 美国_66
+      - 美国_67
+      - 美国_68
+      - 美国_69
+      - 美国_70
+      - 美国_71
+      - 美国_72
+      - 美国_73
+      - 美国_74
+      - 美国_75
+      - 美国_76
+      - 美国_77
+      - 美国_78
+      - 美国_79
+      - 美国_80
+      - 美国_81
+      - 美国_82
+      - US_3
+      - 美国_83
+      - 美国_84
+      - 美国_85
+      - 美国_86
+      - us
+      - 美国_87
+      - 美国_88
+      - 美国_89
+      - 美国_90
+      - 美国_91
+      - 美国_92
+      - 日本
+      - 美国_93
+      - 美国_94
+      - 美国_95
+      - 美国_96
+      - 美国_97
+      - 美国_98
+      - 美国_99
+      - 美国_100
+      - 美国_101
+      - 美国_102
+      - 美国_103
+      - 美国_104
+      - 美国_105
+      - 美国_106
+      - 美国_107
+      - 美国_108
+      - 美国_109
+      - 美国_110
+      - 美国_111
+      - 美国_112
+      - US_4
+      - 美国_113
+      - 美国_114
+      - 美国_115
+      - US_5
+      - 美国_116
+      - 美国_117
+      - 美国_118
+      - 美國_75
+      - 美国_119
+      - 伊朗
+      - 美國_76
+      - 美国_120
+      - 美國_77
+      - 俄國
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 法國_1
       - 美國_1
       - 美國_2
       - 美國_3
-      - 法國_2
       - 美國_4
       - 美國_5
+      - 西班牙_1
+      - 俄羅斯_1
+      - 英國_1
       - 美國_6
-      - 法國_3
       - 美國_7
       - 美國_8
       - 美國_9
+      - 西班牙_2
+      - 德國_1
+      - 奧地利_1
+      - 德國_2
       - 美國_10
-      - 美國_11
+      - 德國_3
       - 荷蘭_1
-      - 荷蘭_2
-      - 法國_4
+      - 立陶宛_1
+      - 美國_11
+      - 奧地利_2
+      - 西班牙_3
       - 美國_12
+      - 荷蘭_2
+      - 英國_2
       - 美國_13
+      - 英国_1
+      - 俄羅斯_2
+      - 立陶宛_2
+      - 美国_1
+      - 西班牙_4
+      - US_1
+      - 西班牙_5
+      - 德國_4
+      - 俄羅斯_3
+      - 澳大利亞_1
+      - 美国_2
       - 美國_14
       - 美國_15
+      - 俄羅斯_4
+      - 俄羅斯_5
+      - 立陶宛_3
       - 美國_16
+      - 俄羅斯_6
+      - 立陶宛_4
       - 美國_17
       - 美國_18
-      - 荷蘭_3
-      - 美國_19
-      - 俄羅斯_1
-      - 美國_20
-      - 美國_21
-      - 美國_22
-      - 荷蘭_4
-      - 美國_23
-      - 荷蘭_5
-      - 荷蘭_6
-      - 荷蘭_7
-      - 羅馬尼亞_1
-      - 荷蘭_8
-      - 奧地利
-      - 荷蘭_9
-      - 俄羅斯_2
-      - 荷蘭_10
-      - 荷蘭_11
-      - 荷蘭_12
-      - 羅馬尼亞_2
-      - 荷蘭_13
-      - 俄羅斯_3
-      - 荷蘭_14
-      - 俄羅斯_4
-      - 荷蘭_15
-      - 荷蘭_16
-      - 荷蘭_17
-      - 荷蘭_18
-      - 美國_24
-      - 荷蘭_19
-      - 荷蘭_20
-      - 俄羅斯_5
-      - 俄羅斯_6
+      - 加拿大_1
       - 俄羅斯_7
       - 俄羅斯_8
-      - 美國_25
-      - 美國_26
-      - 美国_1
-      - 法國_5
-      - 英國_1
+      - 西班牙_6
+      - 奧地利_3
+      - 德國_5
+      - 立陶宛_5
       - 俄羅斯_9
+      - 美國_19
+      - 美國_20
+      - 立陶宛_6
+      - 美國_21
       - 俄羅斯_10
-      - 印度
-      - 美國_27
-      - 立陶宛
-      - 法國_6
-      - 烏克蘭_1
-      - 法國_7
-      - 美国_2
-      - 荷蘭_21
-      - 美國_28
-      - 法國_8
+      - 俄罗斯_1
       - 俄羅斯_11
-      - 德國
-      - 日本
-      - 美國_29
-      - 斯洛維尼亞_1
-      - 法國_9
-      - 荷蘭_22
-      - 芬蘭
+      - 俄羅斯_12
+      - 美國_22
       - 美国_3
-      - 美國_30
+      - 荷蘭_3
+      - 英國_3
+      - 英国_2
       - 美国_4
+      - 美國_23
       - 美国_5
+      - 荷兰_1
+      - 法國_1
+      - 美國_24
+      - 立陶宛_7
+      - 俄罗斯_2
+      - 美國_25
+      - 盧森堡_1
       - 美国_6
-      - 美国_7
+      - 俄罗斯_3
+      - 俄羅斯_13
+      - 美國_26
+      - 奧地利_4
+      - 美國_27
+      - 西班牙_7
+      - 美國_28
+      - 西班牙_8
+      - 美國_29
+      - 保加利亚
+      - 俄罗斯_4
+      - 英国_3
+      - 保加利亞_1
+      - 塞浦路斯
+      - 美國_30
+      - 荷蘭_4
+      - 澳大利亞_2
+      - 俄羅斯_14
+      - 西班牙_9
+      - 荷兰_2
+      - 荷兰_3
+      - 法國_2
+      - 英國_4
       - 美國_31
+      - 盧森堡_2
+      - 俄羅斯_15
+      - 摩爾多瓦
+      - 英國_5
       - 美國_32
       - 美國_33
       - 美國_34
+      - 荷蘭_5
+      - 加拿大_2
       - 美國_35
-      - 美国_8
-      - 美国_9
+      - 俄羅斯_16
+      - 美国_7
       - 美國_36
-      - 俄羅斯_12
-      - 澳大利亞
-      - 荷蘭_23
-      - 英國_2
+      - 俄羅斯_17
+      - 德國_6
       - 美國_37
+      - 俄羅斯_18
+      - 法國_3
       - 美國_38
-      - 美国_10
+      - 西班牙_10
       - 美國_39
       - 美國_40
+      - 法國_4
+      - 加拿大_3
+      - 荷蘭_6
+      - 西班牙_11
+      - 俄羅斯_19
+      - 美国_8
+      - 立陶宛_8
+      - 英國_6
       - 美國_41
-      - 斯洛維尼亞_2
-      - 美国_11
       - 美國_42
-      - 英國_3
-      - 南非
-      - 法國_10
+      - 英國_7
+      - 立陶宛_9
+      - 俄羅斯_20
+      - 英國_8
       - 美國_43
-      - 俄羅斯_13
-      - 拉脫維亞
+      - 西班牙_12
+      - 立陶宛_10
+      - 立陶宛_11
+      - 美國_44
+      - 美國_45
+      - 美國_46
+      - 俄羅斯_21
+      - 加拿大_4
+      - 立陶宛_12
+      - 西班牙_13
+      - 英國_9
+      - 西班牙_14
+      - 美國_47
+      - 俄羅斯_22
+      - 荷蘭_7
+      - 美国_9
+      - 美国_10
+      - 美国_11
+      - 奥地利
+      - 美國_48
+      - 英国_4
+      - 美國_49
+      - 俄羅斯_23
+      - 法國_5
+      - 荷蘭_8
+      - 美國_50
+      - 烏克蘭_1
+      - 美國_51
+      - 美國_52
+      - 美国_12
+      - 西班牙_15
+      - 西班牙_16
+      - 美國_53
+      - 俄羅斯_24
+      - 俄羅斯_25
+      - 西班牙_17
+      - 荷蘭_9
+      - 英國_10
+      - 俄羅斯_26
+      - 英國_11
+      - 美國_54
+      - 俄羅斯_27
+      - 法國_6
+      - 美国_13
+      - 西班牙_18
+      - 英國_12
+      - 英國_13
+      - 西班牙_19
+      - 俄羅斯_28
+      - 西班牙_20
+      - 俄罗斯_5
+      - 保加利亞_2
+      - 美國_55
+      - 俄羅斯_29
+      - 西班牙_21
+      - 西班牙_22
+      - 美國_56
+      - 立陶宛_13
+      - 美國_57
+      - 荷蘭_10
+      - 美国_14
+      - 澳大利亞_3
+      - 美國_58
+      - 英國_14
+      - 荷蘭_11
+      - 澳大利亞_4
+      - 立陶宛_14
+      - 英國_15
+      - 英國_16
+      - 美國_59
+      - 美国_15
+      - 德國_7
+      - 俄羅斯_30
+      - 立陶宛_15
+      - 美國_60
+      - 俄羅斯_31
+      - 美國_61
+      - 德國_8
+      - 英國_17
+      - 美國_62
+      - 西班牙_23
+      - 盧森堡_3
+      - 美国_16
+      - 荷兰_4
+      - 俄羅斯_32
+      - 美國_63
+      - 西班牙_24
+      - 美國_64
+      - 荷蘭_12
+      - 立陶宛_16
+      - 法國_7
+      - 西班牙_25
+      - 美國_65
+      - 美国_17
+      - 西班牙_26
+      - 立陶宛_17
+      - 西班牙_27
+      - 美國_66
+      - 俄罗斯_6
+      - 立陶宛_18
+      - 美國_67
+      - 法國_8
+      - 美国_18
+      - 英國_18
+      - 美國_68
+      - 俄羅斯_33
+      - 美國_69
+      - 美國_70
+      - 保加利亞_3
+      - 美国_19
+      - 美國_71
+      - 美國_72
+      - 美国_20
+      - 美国_21
+      - 英國_19
+      - 南非
+      - 美國_73
+      - 立陶宛_19
       - 烏克蘭_2
+      - 俄羅斯_34
+      - 斯洛文尼亞
+      - 美国_22
+      - 美国_23
+      - 美国_24
+      - 俄羅斯_35
+      - 俄羅斯_36
+      - 美国_25
+      - 美国_26
+      - 美国_27
+      - 美国_28
+      - 美国_29
+      - 美国_30
+      - 美國_74
+      - 美国_31
+      - 美国_32
+      - 美国_33
+      - 美国_34
+      - 美国_35
+      - 美国_36
+      - 美国_37
+      - 美国_38
+      - 美国_39
+      - 美国_40
+      - 美国_41
+      - 美国_42
+      - 美国_43
+      - 美国_44
+      - 美国_45
+      - 美国_46
+      - 美国_47
+      - 美国_48
+      - 美国_49
+      - 美国_50
+      - 美国_51
+      - 美国_52
+      - 美国_53
+      - 美国_54
+      - 美国_55
+      - US_2
+      - 美国_56
+      - 美国_57
+      - 美国_58
+      - 美国_59
+      - 美国_60
+      - 美国_61
+      - 美国_62
+      - 美国_63
+      - 美国_64
+      - 美国_65
+      - 美国_66
+      - 美国_67
+      - 美国_68
+      - 美国_69
+      - 美国_70
+      - 美国_71
+      - 美国_72
+      - 美国_73
+      - 美国_74
+      - 美国_75
+      - 美国_76
+      - 美国_77
+      - 美国_78
+      - 美国_79
+      - 美国_80
+      - 美国_81
+      - 美国_82
+      - US_3
+      - 美国_83
+      - 美国_84
+      - 美国_85
+      - 美国_86
+      - us
+      - 美国_87
+      - 美国_88
+      - 美国_89
+      - 美国_90
+      - 美国_91
+      - 美国_92
+      - 日本
+      - 美国_93
+      - 美国_94
+      - 美国_95
+      - 美国_96
+      - 美国_97
+      - 美国_98
+      - 美国_99
+      - 美国_100
+      - 美国_101
+      - 美国_102
+      - 美国_103
+      - 美国_104
+      - 美国_105
+      - 美国_106
+      - 美国_107
+      - 美国_108
+      - 美国_109
+      - 美国_110
+      - 美国_111
+      - 美国_112
+      - US_4
+      - 美国_113
+      - 美国_114
+      - 美国_115
+      - US_5
+      - 美国_116
+      - 美国_117
+      - 美国_118
+      - 美國_75
+      - 美国_119
+      - 伊朗
+      - 美國_76
+      - 美国_120
+      - 美國_77
+      - 俄國
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 法國_1
       - 美國_1
       - 美國_2
       - 美國_3
-      - 法國_2
       - 美國_4
       - 美國_5
+      - 西班牙_1
+      - 俄羅斯_1
+      - 英國_1
       - 美國_6
-      - 法國_3
       - 美國_7
       - 美國_8
       - 美國_9
+      - 西班牙_2
+      - 德國_1
+      - 奧地利_1
+      - 德國_2
       - 美國_10
-      - 美國_11
+      - 德國_3
       - 荷蘭_1
-      - 荷蘭_2
-      - 法國_4
+      - 立陶宛_1
+      - 美國_11
+      - 奧地利_2
+      - 西班牙_3
       - 美國_12
+      - 荷蘭_2
+      - 英國_2
       - 美國_13
+      - 英国_1
+      - 俄羅斯_2
+      - 立陶宛_2
+      - 美国_1
+      - 西班牙_4
+      - US_1
+      - 西班牙_5
+      - 德國_4
+      - 俄羅斯_3
+      - 澳大利亞_1
+      - 美国_2
       - 美國_14
       - 美國_15
+      - 俄羅斯_4
+      - 俄羅斯_5
+      - 立陶宛_3
       - 美國_16
+      - 俄羅斯_6
+      - 立陶宛_4
       - 美國_17
       - 美國_18
-      - 荷蘭_3
-      - 美國_19
-      - 俄羅斯_1
-      - 美國_20
-      - 美國_21
-      - 美國_22
-      - 荷蘭_4
-      - 美國_23
-      - 荷蘭_5
-      - 荷蘭_6
-      - 荷蘭_7
-      - 羅馬尼亞_1
-      - 荷蘭_8
-      - 奧地利
-      - 荷蘭_9
-      - 俄羅斯_2
-      - 荷蘭_10
-      - 荷蘭_11
-      - 荷蘭_12
-      - 羅馬尼亞_2
-      - 荷蘭_13
-      - 俄羅斯_3
-      - 荷蘭_14
-      - 俄羅斯_4
-      - 荷蘭_15
-      - 荷蘭_16
-      - 荷蘭_17
-      - 荷蘭_18
-      - 美國_24
-      - 荷蘭_19
-      - 荷蘭_20
-      - 俄羅斯_5
-      - 俄羅斯_6
+      - 加拿大_1
       - 俄羅斯_7
       - 俄羅斯_8
-      - 美國_25
-      - 美國_26
-      - 美国_1
-      - 法國_5
-      - 英國_1
+      - 西班牙_6
+      - 奧地利_3
+      - 德國_5
+      - 立陶宛_5
       - 俄羅斯_9
+      - 美國_19
+      - 美國_20
+      - 立陶宛_6
+      - 美國_21
       - 俄羅斯_10
-      - 印度
-      - 美國_27
-      - 立陶宛
-      - 法國_6
-      - 烏克蘭_1
-      - 法國_7
-      - 美国_2
-      - 荷蘭_21
-      - 美國_28
-      - 法國_8
+      - 俄罗斯_1
       - 俄羅斯_11
-      - 德國
-      - 日本
-      - 美國_29
-      - 斯洛維尼亞_1
-      - 法國_9
-      - 荷蘭_22
-      - 芬蘭
+      - 俄羅斯_12
+      - 美國_22
       - 美国_3
-      - 美國_30
+      - 荷蘭_3
+      - 英國_3
+      - 英国_2
       - 美国_4
+      - 美國_23
       - 美国_5
+      - 荷兰_1
+      - 法國_1
+      - 美國_24
+      - 立陶宛_7
+      - 俄罗斯_2
+      - 美國_25
+      - 盧森堡_1
       - 美国_6
-      - 美国_7
+      - 俄罗斯_3
+      - 俄羅斯_13
+      - 美國_26
+      - 奧地利_4
+      - 美國_27
+      - 西班牙_7
+      - 美國_28
+      - 西班牙_8
+      - 美國_29
+      - 保加利亚
+      - 俄罗斯_4
+      - 英国_3
+      - 保加利亞_1
+      - 塞浦路斯
+      - 美國_30
+      - 荷蘭_4
+      - 澳大利亞_2
+      - 俄羅斯_14
+      - 西班牙_9
+      - 荷兰_2
+      - 荷兰_3
+      - 法國_2
+      - 英國_4
       - 美國_31
+      - 盧森堡_2
+      - 俄羅斯_15
+      - 摩爾多瓦
+      - 英國_5
       - 美國_32
       - 美國_33
       - 美國_34
+      - 荷蘭_5
+      - 加拿大_2
       - 美國_35
-      - 美国_8
-      - 美国_9
+      - 俄羅斯_16
+      - 美国_7
       - 美國_36
-      - 俄羅斯_12
-      - 澳大利亞
-      - 荷蘭_23
-      - 英國_2
+      - 俄羅斯_17
+      - 德國_6
       - 美國_37
+      - 俄羅斯_18
+      - 法國_3
       - 美國_38
-      - 美国_10
+      - 西班牙_10
       - 美國_39
       - 美國_40
+      - 法國_4
+      - 加拿大_3
+      - 荷蘭_6
+      - 西班牙_11
+      - 俄羅斯_19
+      - 美国_8
+      - 立陶宛_8
+      - 英國_6
       - 美國_41
-      - 斯洛維尼亞_2
-      - 美国_11
       - 美國_42
-      - 英國_3
-      - 南非
-      - 法國_10
+      - 英國_7
+      - 立陶宛_9
+      - 俄羅斯_20
+      - 英國_8
       - 美國_43
-      - 俄羅斯_13
-      - 拉脫維亞
+      - 西班牙_12
+      - 立陶宛_10
+      - 立陶宛_11
+      - 美國_44
+      - 美國_45
+      - 美國_46
+      - 俄羅斯_21
+      - 加拿大_4
+      - 立陶宛_12
+      - 西班牙_13
+      - 英國_9
+      - 西班牙_14
+      - 美國_47
+      - 俄羅斯_22
+      - 荷蘭_7
+      - 美国_9
+      - 美国_10
+      - 美国_11
+      - 奥地利
+      - 美國_48
+      - 英国_4
+      - 美國_49
+      - 俄羅斯_23
+      - 法國_5
+      - 荷蘭_8
+      - 美國_50
+      - 烏克蘭_1
+      - 美國_51
+      - 美國_52
+      - 美国_12
+      - 西班牙_15
+      - 西班牙_16
+      - 美國_53
+      - 俄羅斯_24
+      - 俄羅斯_25
+      - 西班牙_17
+      - 荷蘭_9
+      - 英國_10
+      - 俄羅斯_26
+      - 英國_11
+      - 美國_54
+      - 俄羅斯_27
+      - 法國_6
+      - 美国_13
+      - 西班牙_18
+      - 英國_12
+      - 英國_13
+      - 西班牙_19
+      - 俄羅斯_28
+      - 西班牙_20
+      - 俄罗斯_5
+      - 保加利亞_2
+      - 美國_55
+      - 俄羅斯_29
+      - 西班牙_21
+      - 西班牙_22
+      - 美國_56
+      - 立陶宛_13
+      - 美國_57
+      - 荷蘭_10
+      - 美国_14
+      - 澳大利亞_3
+      - 美國_58
+      - 英國_14
+      - 荷蘭_11
+      - 澳大利亞_4
+      - 立陶宛_14
+      - 英國_15
+      - 英國_16
+      - 美國_59
+      - 美国_15
+      - 德國_7
+      - 俄羅斯_30
+      - 立陶宛_15
+      - 美國_60
+      - 俄羅斯_31
+      - 美國_61
+      - 德國_8
+      - 英國_17
+      - 美國_62
+      - 西班牙_23
+      - 盧森堡_3
+      - 美国_16
+      - 荷兰_4
+      - 俄羅斯_32
+      - 美國_63
+      - 西班牙_24
+      - 美國_64
+      - 荷蘭_12
+      - 立陶宛_16
+      - 法國_7
+      - 西班牙_25
+      - 美國_65
+      - 美国_17
+      - 西班牙_26
+      - 立陶宛_17
+      - 西班牙_27
+      - 美國_66
+      - 俄罗斯_6
+      - 立陶宛_18
+      - 美國_67
+      - 法國_8
+      - 美国_18
+      - 英國_18
+      - 美國_68
+      - 俄羅斯_33
+      - 美國_69
+      - 美國_70
+      - 保加利亞_3
+      - 美国_19
+      - 美國_71
+      - 美國_72
+      - 美国_20
+      - 美国_21
+      - 英國_19
+      - 南非
+      - 美國_73
+      - 立陶宛_19
       - 烏克蘭_2
+      - 俄羅斯_34
+      - 斯洛文尼亞
+      - 美国_22
+      - 美国_23
+      - 美国_24
+      - 俄羅斯_35
+      - 俄羅斯_36
+      - 美国_25
+      - 美国_26
+      - 美国_27
+      - 美国_28
+      - 美国_29
+      - 美国_30
+      - 美國_74
+      - 美国_31
+      - 美国_32
+      - 美国_33
+      - 美国_34
+      - 美国_35
+      - 美国_36
+      - 美国_37
+      - 美国_38
+      - 美国_39
+      - 美国_40
+      - 美国_41
+      - 美国_42
+      - 美国_43
+      - 美国_44
+      - 美国_45
+      - 美国_46
+      - 美国_47
+      - 美国_48
+      - 美国_49
+      - 美国_50
+      - 美国_51
+      - 美国_52
+      - 美国_53
+      - 美国_54
+      - 美国_55
+      - US_2
+      - 美国_56
+      - 美国_57
+      - 美国_58
+      - 美国_59
+      - 美国_60
+      - 美国_61
+      - 美国_62
+      - 美国_63
+      - 美国_64
+      - 美国_65
+      - 美国_66
+      - 美国_67
+      - 美国_68
+      - 美国_69
+      - 美国_70
+      - 美国_71
+      - 美国_72
+      - 美国_73
+      - 美国_74
+      - 美国_75
+      - 美国_76
+      - 美国_77
+      - 美国_78
+      - 美国_79
+      - 美国_80
+      - 美国_81
+      - 美国_82
+      - US_3
+      - 美国_83
+      - 美国_84
+      - 美国_85
+      - 美国_86
+      - us
+      - 美国_87
+      - 美国_88
+      - 美国_89
+      - 美国_90
+      - 美国_91
+      - 美国_92
+      - 日本
+      - 美国_93
+      - 美国_94
+      - 美国_95
+      - 美国_96
+      - 美国_97
+      - 美国_98
+      - 美国_99
+      - 美国_100
+      - 美国_101
+      - 美国_102
+      - 美国_103
+      - 美国_104
+      - 美国_105
+      - 美国_106
+      - 美国_107
+      - 美国_108
+      - 美国_109
+      - 美国_110
+      - 美国_111
+      - 美国_112
+      - US_4
+      - 美国_113
+      - 美国_114
+      - 美国_115
+      - US_5
+      - 美国_116
+      - 美国_117
+      - 美国_118
+      - 美國_75
+      - 美国_119
+      - 伊朗
+      - 美國_76
+      - 美国_120
+      - 美國_77
+      - 俄國
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -886,124 +2690,381 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 法國_1
       - 美國_1
       - 美國_2
       - 美國_3
-      - 法國_2
       - 美國_4
       - 美國_5
+      - 西班牙_1
+      - 俄羅斯_1
+      - 英國_1
       - 美國_6
-      - 法國_3
       - 美國_7
       - 美國_8
       - 美國_9
+      - 西班牙_2
+      - 德國_1
+      - 奧地利_1
+      - 德國_2
       - 美國_10
-      - 美國_11
+      - 德國_3
       - 荷蘭_1
-      - 荷蘭_2
-      - 法國_4
+      - 立陶宛_1
+      - 美國_11
+      - 奧地利_2
+      - 西班牙_3
       - 美國_12
+      - 荷蘭_2
+      - 英國_2
       - 美國_13
+      - 英国_1
+      - 俄羅斯_2
+      - 立陶宛_2
+      - 美国_1
+      - 西班牙_4
+      - US_1
+      - 西班牙_5
+      - 德國_4
+      - 俄羅斯_3
+      - 澳大利亞_1
+      - 美国_2
       - 美國_14
       - 美國_15
+      - 俄羅斯_4
+      - 俄羅斯_5
+      - 立陶宛_3
       - 美國_16
+      - 俄羅斯_6
+      - 立陶宛_4
       - 美國_17
       - 美國_18
-      - 荷蘭_3
-      - 美國_19
-      - 俄羅斯_1
-      - 美國_20
-      - 美國_21
-      - 美國_22
-      - 荷蘭_4
-      - 美國_23
-      - 荷蘭_5
-      - 荷蘭_6
-      - 荷蘭_7
-      - 羅馬尼亞_1
-      - 荷蘭_8
-      - 奧地利
-      - 荷蘭_9
-      - 俄羅斯_2
-      - 荷蘭_10
-      - 荷蘭_11
-      - 荷蘭_12
-      - 羅馬尼亞_2
-      - 荷蘭_13
-      - 俄羅斯_3
-      - 荷蘭_14
-      - 俄羅斯_4
-      - 荷蘭_15
-      - 荷蘭_16
-      - 荷蘭_17
-      - 荷蘭_18
-      - 美國_24
-      - 荷蘭_19
-      - 荷蘭_20
-      - 俄羅斯_5
-      - 俄羅斯_6
+      - 加拿大_1
       - 俄羅斯_7
       - 俄羅斯_8
-      - 美國_25
-      - 美國_26
-      - 美国_1
-      - 法國_5
-      - 英國_1
+      - 西班牙_6
+      - 奧地利_3
+      - 德國_5
+      - 立陶宛_5
       - 俄羅斯_9
+      - 美國_19
+      - 美國_20
+      - 立陶宛_6
+      - 美國_21
       - 俄羅斯_10
-      - 印度
-      - 美國_27
-      - 立陶宛
-      - 法國_6
-      - 烏克蘭_1
-      - 法國_7
-      - 美国_2
-      - 荷蘭_21
-      - 美國_28
-      - 法國_8
+      - 俄罗斯_1
       - 俄羅斯_11
-      - 德國
-      - 日本
-      - 美國_29
-      - 斯洛維尼亞_1
-      - 法國_9
-      - 荷蘭_22
-      - 芬蘭
+      - 俄羅斯_12
+      - 美國_22
       - 美国_3
-      - 美國_30
+      - 荷蘭_3
+      - 英國_3
+      - 英国_2
       - 美国_4
+      - 美國_23
       - 美国_5
+      - 荷兰_1
+      - 法國_1
+      - 美國_24
+      - 立陶宛_7
+      - 俄罗斯_2
+      - 美國_25
+      - 盧森堡_1
       - 美国_6
-      - 美国_7
+      - 俄罗斯_3
+      - 俄羅斯_13
+      - 美國_26
+      - 奧地利_4
+      - 美國_27
+      - 西班牙_7
+      - 美國_28
+      - 西班牙_8
+      - 美國_29
+      - 保加利亚
+      - 俄罗斯_4
+      - 英国_3
+      - 保加利亞_1
+      - 塞浦路斯
+      - 美國_30
+      - 荷蘭_4
+      - 澳大利亞_2
+      - 俄羅斯_14
+      - 西班牙_9
+      - 荷兰_2
+      - 荷兰_3
+      - 法國_2
+      - 英國_4
       - 美國_31
+      - 盧森堡_2
+      - 俄羅斯_15
+      - 摩爾多瓦
+      - 英國_5
       - 美國_32
       - 美國_33
       - 美國_34
+      - 荷蘭_5
+      - 加拿大_2
       - 美國_35
-      - 美国_8
-      - 美国_9
+      - 俄羅斯_16
+      - 美国_7
       - 美國_36
-      - 俄羅斯_12
-      - 澳大利亞
-      - 荷蘭_23
-      - 英國_2
+      - 俄羅斯_17
+      - 德國_6
       - 美國_37
+      - 俄羅斯_18
+      - 法國_3
       - 美國_38
-      - 美国_10
+      - 西班牙_10
       - 美國_39
       - 美國_40
+      - 法國_4
+      - 加拿大_3
+      - 荷蘭_6
+      - 西班牙_11
+      - 俄羅斯_19
+      - 美国_8
+      - 立陶宛_8
+      - 英國_6
       - 美國_41
-      - 斯洛維尼亞_2
-      - 美国_11
       - 美國_42
-      - 英國_3
-      - 南非
-      - 法國_10
+      - 英國_7
+      - 立陶宛_9
+      - 俄羅斯_20
+      - 英國_8
       - 美國_43
-      - 俄羅斯_13
-      - 拉脫維亞
+      - 西班牙_12
+      - 立陶宛_10
+      - 立陶宛_11
+      - 美國_44
+      - 美國_45
+      - 美國_46
+      - 俄羅斯_21
+      - 加拿大_4
+      - 立陶宛_12
+      - 西班牙_13
+      - 英國_9
+      - 西班牙_14
+      - 美國_47
+      - 俄羅斯_22
+      - 荷蘭_7
+      - 美国_9
+      - 美国_10
+      - 美国_11
+      - 奥地利
+      - 美國_48
+      - 英国_4
+      - 美國_49
+      - 俄羅斯_23
+      - 法國_5
+      - 荷蘭_8
+      - 美國_50
+      - 烏克蘭_1
+      - 美國_51
+      - 美國_52
+      - 美国_12
+      - 西班牙_15
+      - 西班牙_16
+      - 美國_53
+      - 俄羅斯_24
+      - 俄羅斯_25
+      - 西班牙_17
+      - 荷蘭_9
+      - 英國_10
+      - 俄羅斯_26
+      - 英國_11
+      - 美國_54
+      - 俄羅斯_27
+      - 法國_6
+      - 美国_13
+      - 西班牙_18
+      - 英國_12
+      - 英國_13
+      - 西班牙_19
+      - 俄羅斯_28
+      - 西班牙_20
+      - 俄罗斯_5
+      - 保加利亞_2
+      - 美國_55
+      - 俄羅斯_29
+      - 西班牙_21
+      - 西班牙_22
+      - 美國_56
+      - 立陶宛_13
+      - 美國_57
+      - 荷蘭_10
+      - 美国_14
+      - 澳大利亞_3
+      - 美國_58
+      - 英國_14
+      - 荷蘭_11
+      - 澳大利亞_4
+      - 立陶宛_14
+      - 英國_15
+      - 英國_16
+      - 美國_59
+      - 美国_15
+      - 德國_7
+      - 俄羅斯_30
+      - 立陶宛_15
+      - 美國_60
+      - 俄羅斯_31
+      - 美國_61
+      - 德國_8
+      - 英國_17
+      - 美國_62
+      - 西班牙_23
+      - 盧森堡_3
+      - 美国_16
+      - 荷兰_4
+      - 俄羅斯_32
+      - 美國_63
+      - 西班牙_24
+      - 美國_64
+      - 荷蘭_12
+      - 立陶宛_16
+      - 法國_7
+      - 西班牙_25
+      - 美國_65
+      - 美国_17
+      - 西班牙_26
+      - 立陶宛_17
+      - 西班牙_27
+      - 美國_66
+      - 俄罗斯_6
+      - 立陶宛_18
+      - 美國_67
+      - 法國_8
+      - 美国_18
+      - 英國_18
+      - 美國_68
+      - 俄羅斯_33
+      - 美國_69
+      - 美國_70
+      - 保加利亞_3
+      - 美国_19
+      - 美國_71
+      - 美國_72
+      - 美国_20
+      - 美国_21
+      - 英國_19
+      - 南非
+      - 美國_73
+      - 立陶宛_19
       - 烏克蘭_2
+      - 俄羅斯_34
+      - 斯洛文尼亞
+      - 美国_22
+      - 美国_23
+      - 美国_24
+      - 俄羅斯_35
+      - 俄羅斯_36
+      - 美国_25
+      - 美国_26
+      - 美国_27
+      - 美国_28
+      - 美国_29
+      - 美国_30
+      - 美國_74
+      - 美国_31
+      - 美国_32
+      - 美国_33
+      - 美国_34
+      - 美国_35
+      - 美国_36
+      - 美国_37
+      - 美国_38
+      - 美国_39
+      - 美国_40
+      - 美国_41
+      - 美国_42
+      - 美国_43
+      - 美国_44
+      - 美国_45
+      - 美国_46
+      - 美国_47
+      - 美国_48
+      - 美国_49
+      - 美国_50
+      - 美国_51
+      - 美国_52
+      - 美国_53
+      - 美国_54
+      - 美国_55
+      - US_2
+      - 美国_56
+      - 美国_57
+      - 美国_58
+      - 美国_59
+      - 美国_60
+      - 美国_61
+      - 美国_62
+      - 美国_63
+      - 美国_64
+      - 美国_65
+      - 美国_66
+      - 美国_67
+      - 美国_68
+      - 美国_69
+      - 美国_70
+      - 美国_71
+      - 美国_72
+      - 美国_73
+      - 美国_74
+      - 美国_75
+      - 美国_76
+      - 美国_77
+      - 美国_78
+      - 美国_79
+      - 美国_80
+      - 美国_81
+      - 美国_82
+      - US_3
+      - 美国_83
+      - 美国_84
+      - 美国_85
+      - 美国_86
+      - us
+      - 美国_87
+      - 美国_88
+      - 美国_89
+      - 美国_90
+      - 美国_91
+      - 美国_92
+      - 日本
+      - 美国_93
+      - 美国_94
+      - 美国_95
+      - 美国_96
+      - 美国_97
+      - 美国_98
+      - 美国_99
+      - 美国_100
+      - 美国_101
+      - 美国_102
+      - 美国_103
+      - 美国_104
+      - 美国_105
+      - 美国_106
+      - 美国_107
+      - 美国_108
+      - 美国_109
+      - 美国_110
+      - 美国_111
+      - 美国_112
+      - US_4
+      - 美国_113
+      - 美国_114
+      - 美国_115
+      - US_5
+      - 美国_116
+      - 美国_117
+      - 美国_118
+      - 美國_75
+      - 美国_119
+      - 伊朗
+      - 美國_76
+      - 美国_120
+      - 美國_77
+      - 俄國
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
